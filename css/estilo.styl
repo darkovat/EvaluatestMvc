@@ -16,7 +16,7 @@ html
   padding: 0
 
 header
-  margin-top: 1em
+  margin-bottom 3em
 
 img
   width 100%
@@ -414,6 +414,7 @@ table
 
 .titleB
   font-size: 30px
+  line-height 1
   margin: .5em 0
 
 .title_banner
@@ -706,11 +707,33 @@ table
 #nav-footer li a
   color: #002d56
   border-right: 1px solid #fbb034
-  padding: .1em .6em
+  padding: .1em .8em
   text-decoration: none
 
 #nav-footer li a:hover
   text-decoration: underline
+
+#menu-top
+  margin-bottom 0.3em
+  text-align right
+
+#menu-top li
+  display inline-block
+  margin-left -5px
+
+#menu-top li a
+  color #777
+  font-size 0.6em
+  padding 0 0.7em
+  text-decoration none
+  text-align center
+  border-right 1px solid #777
+
+#menu-top li a:hover
+  text-decoration underline
+
+#menu-top li:last-child a
+  border-right none
 
 #events
   margin: 3em 0
@@ -774,7 +797,7 @@ table
   padding: .8em 2em .8em .8em
   text-decoration: none
 
-#menu-sidebar li a:hover
+#menu-sidebar li a:hover, #menu-sidebar li.active a
   color: #fff
   background-color: #00b7ec
   border-radius: 5px
@@ -782,7 +805,7 @@ table
   -moz-box-shadow: inset 0 3px 8px rgba(0,0,0,0.125)
   box-shadow: inset 0 3px 8px rgba(0,0,0,0.125)
 
-#menu-sidebar li:hover a:after
+#menu-sidebar li:hover a:after,  #menu-sidebar li.active a:after
   background: url("../img/arrow.jpg") no-repeat
   content: ""
   height: 37px
@@ -791,7 +814,7 @@ table
   top: 0
   width: 20px
 
-#menu-sidebar li:hover .more
+#menu-sidebar li:hover .more, #menu-sidebar li.active .more
   display: none
 
 #menu-sidebar li .more
@@ -820,7 +843,7 @@ table
 #opciones
   margin-bottom: 2em
 
-#seccion
+.seccion
   font-size: .9em
   padding-right: 3em
   text-align: justify

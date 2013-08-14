@@ -13,6 +13,15 @@
 	<script type="text/javascript" src="<?php echo base_url();?>js/html5shiv.js"></script>
 </head>
 <body>
+	<div class='container clearfix'>
+		<ul id='menu-top'>
+			<li><a href="">Inicio</a></li>
+			<li><a href="">Contacto</a></li>
+			<li><a href="">Centro de Solución a Clientes</a></li>
+			<li><a href="">Buzón</a></li>
+			<li><a href="">Latinoamerica</a></li>
+		</ul>
+	</div>
 	<div id="wrapper">
 		<a href="<?php echo base_url();?>blog/" target="_blank" class="micrositio"></a>
 		<?php echo $this->load->view("layout/menu");?>
@@ -22,7 +31,8 @@
 		<?php echo $this->load->view('layout/footer');?>
 	</div>
 	<div id="social-tabs"></div>
-	<script src="<?php echo base_url();?>js/jquery-1.7.1.min.js"></script>
+	<script src="<?php echo base_url();?>js/jquery-1.9.1.min.js"></script>
+	<script type="text/javascript" src="<?php echo base_url();?>js/funciones.js"></script>
 	<script type="text/javascript" src="<?php echo base_url();?>js/jquery.wd.social.js"></script>
 	<script type="text/javascript">
 		jQuery(document).ready(function ($) {

@@ -22,7 +22,12 @@ class va_conmigo extends CI_Controller {
 		$this->ViewBag['layout_title'] = "Visión, Misión y Valores";
 		$datos['home'] = false;
 		$datos['urlBanner2'] = 'img/va-conmigo.png';
+<<<<<<< HEAD
 		$datos['descripcion'] =  '';
+=======
+		$datos['tituloH4'] = 'Estudio de habilidades de la fuerza de ventas';
+		$datos['descripcion'] =  'Es una solución de diagnóstico ideal para identificar las principales habilidades del equipo comercial, así como aquellas áreas que requieren desarrollo; con base en este análisis se determinan las necesidades y planes de capacitación que permitirán incrementar la efectividad de la fuerza de ventas.';
+>>>>>>> 6074ef02f4c7a217238c8e4fefbf171439d4bcc8
 		$datos['content'] = 'va_conmigo/vision_mision_valores';
 		$this->load->view('layout', $datos);
 	}
