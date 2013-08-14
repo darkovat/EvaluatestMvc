@@ -23,50 +23,53 @@
 				<div class='nav-inner bg_style'>
 					<ul class="nav">
 					  <li>
-						<a href="#">Evaluatest&reg; va conmigo</a>
+						<a>Evaluatest&reg; va conmigo</a>
 						<div class='dropdown1 bg_style3'>
 							<div class='col1'>
-								<a href="<?php echo site_url('va_conmigo/corporativo_negocios');?>">Visión, Misión y Valores</a>
-								<a href="">ADN Brivé</a>
-								<a href="">Colabora en nuestro Equipo</a>
-								<a href="">Convertirse en Socio de Negocios</a>
-								<a href="">Cambiando Historias</a>
-								<a href="">Responsabilidad Social</a>
+								<a href="<?php echo site_url('va_conmigo/vision_mision_valores');?>">Visión, Misión y Valores</a>
+								<a href="<?php echo site_url('va_conmigo/adn');?>">ADN Brivé</a>
+								<a href="<?php echo site_url('va_conmigo/colabora');?>">Colabora en nuestro Equipo</a>
+								<a href="<?php echo site_url('va_conmigo/socio_de_negocios');?>">Convertirse en Socio de Negocios</a>
+								<a href="<?php echo site_url('va_conmigo/cambiando_historias');?>">Cambiando Historias</a>
+								<a href="<?php echo site_url('va_conmigo/responsabilidad_social');?>">Responsabilidad Social</a>
 							</div>
 						</div>
 					  </li>
 					  <li>
-						<a href="<?php echo base_url() ?>mi-rol.php?op=mi-rol">Evaluatest&reg; en mi rol</a>
+						<a>Evaluatest&reg; en mi rol</a>
 						<div class='dropdown6 bg_style3'>
 							<div class='col3'>
-								<a href="<?php echo base_url() ?>views/mi-rol-3.php?op=mi-rol">Ejecutivo de atracción de talento</a>
-								<a href="">Ejecutivo de desarrollo organizacional</a>
-								<a href="">Gerente de capital humano</a>
-								<a href="">Consultas y tercerización</a>
+								<a href="<?php echo site_url('en_mi_rol/ejecutivo_atraccion_talento');?>">Ejecutivo de Atracción de Talento</a>
+								<a href="<?php echo site_url('en_mi_rol/ejecutivo_desarrollo_organizacional');?>">Ejecutivo de Desarrollo Organizacional</a>
+								<a href="<?php echo site_url('en_mi_rol/gerente_capital_humano');?>">Gerente de Capital Humano</a>
+								<a href="<?php echo site_url('en_mi_rol/consultoria_tercerizacion');?>">Consultoría y tercerización</a>
 							</div>
 							<div class='col4'>
-								<a href="">Dirección</a>
-								<a href="">Propietario</a>
-								<a href="">Tengo un Sistema Instalado</a>
+								<a href="<?php echo site_url('en_mi_rol/direccion');?>">Dirección</a>
+								<a href="<?php echo site_url('en_mi_rol/propietario');?>">Propietario</a>
+								<a href="<?php echo site_url('en_mi_rol/sistema_instalado');?>">Tengo un Sistema Instalado</a>
 							</div>
 						</div>
 					  </li>
 					  <li>
-						<a href="<?php echo base_url() ?>productos.php?op=productos">Productos</a>
+						<a>Productos</a>
 						<div class='dropdown2 bg_style3'>
 							<div class='col1'>
-								<a href="<?php echo base_url() ?>views/productos-3.php?op=productos">Evaluatest&reg; Vívelo</a>
-								<a href="">Evaluatest&reg; In side</a>
-								<a href="">Evaluatest&reg; Now</a>
-								<a href="">Evaluatest&reg; Testing Center</a>
-								<a href="">Evaluatest&reg; Api</a>
+								<a>Soluciones Talento</a>
+								<a href="<?php echo site_url('productos/vivelo');?>">Evaluatest&reg; Vívelo</a>
+								<a href="<?php echo site_url('productos/inside');?>">Evaluatest&reg; Inside</a>
+								<a href="<?php echo site_url('productos/now');?>">Evaluatest&reg; Now</a>
+								<a href="<?php echo site_url('productos/esic');?>">Estudio Situacional de Competencias (ESIC)</a>
+								<a href="<?php echo site_url('productos/desempeno');?>">Evaluatest&reg; Desempeño</a>
+								<a href="<?php echo site_url('productos/publicacion');?>">Evaluatest&reg; Publicación de Vacantes</a>
+								<a href="<?php echo site_url('productos/api');?>">Evaluatest&reg; Api</a>
 							</div>
 							<div class='col2'>
-								<a href="">Evaluatest&reg; Publicación de Vacantes</a>
-								<a href="">Estudio Situacional de Competencias</a>
-								<a href="">Evaluatest&reg; Desempeño</a>
-								<a href="">Evaluatest&reg; Intercambio de Talento</a>
-								<a href="">Evaluatest&reg; Encuestas de Salida</a>
+								<a>Soluciones Entorno</a>
+								<a href="<?php echo site_url('productos/entorno');?>">Evaluatest&reg; Entorno</a>
+								<a href="<?php echo site_url('productos/engagement');?>">Evaluatest&reg; Engagement</a>
+								<a href="<?php echo site_url('productos/encuesta_salida');?>">Evaluatest&reg; Encuesta de Salida</a>
+								<a href="<?php echo site_url('productos/clima');?>">Evaluatest&reg; Clima y Satisfacción</a>
 							</div>
 						</div>
 					  </li>
@@ -137,10 +140,8 @@
 				<img src="<?php echo base_url().$urlBanner2;?>">	
 			</div>
 			<div class='description-banner2 bg_red'>
-				<h4><?php echo $tituloH4?></h4>
 				<p><?php echo $descripcion ?>
 				</p>
-				<a class='more-sup' href='#'>más<span class='more-sup-icon'>more</span></a>
 			</div>
 		</div>
 	<?php }?>

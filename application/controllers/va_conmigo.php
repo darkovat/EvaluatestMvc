@@ -22,8 +22,7 @@ class va_conmigo extends CI_Controller {
 		$this->ViewBag['layout_title'] = "Visión, Misión y Valores";
 		$datos['home'] = false;
 		$datos['urlBanner2'] = 'img/va-conmigo.png';
-		$datos['tituloH4'] = 'Evaluatest va conmigo en la alineación de mi talento';
-		$datos['descripcion'] =  'Diagnostica el Talento y agiliza tus procesos de Atracción y Desarrollo, encuentra a las personas adecuadas para tu organización y así potenciar el crecimiento del negocio.';
+		$datos['descripcion'] =  '';
 		$datos['content'] = 'va_conmigo/vision_mision_valores';
 		$this->load->view('layout', $datos);
 	}
@@ -33,8 +32,7 @@ class va_conmigo extends CI_Controller {
 		$this->ViewBag['layout_title'] = "ADN Brivé";
 		$datos['home'] = false;
 		$datos['urlBanner2'] = 'img/va-conmigo.png';
-		$datos['tituloH4'] = 'Evaluatest va conmigo en la alineación de mi talento';
-		$datos['descripcion'] =  'Diagnostica el Talento y agiliza tus procesos de Atracción y Desarrollo, encuentra a las personas adecuadas para tu organización y así potenciar el crecimiento del negocio.';
+		$datos['descripcion'] =  '';
 		$datos['content'] = 'va_conmigo/adn';
 		$this->load->view('layout', $datos);
 	}
@@ -44,8 +42,7 @@ class va_conmigo extends CI_Controller {
 		$this->ViewBag['layout_title'] = "Colabora en nuestro Equipo";
 		$datos['home'] = false;
 		$datos['urlBanner2'] = 'img/va-conmigo.png';
-		$datos['tituloH4'] = 'Evaluatest va conmigo en la alineación de mi talento';
-		$datos['descripcion'] =  'Diagnostica el Talento y agiliza tus procesos de Atracción y Desarrollo, encuentra a las personas adecuadas para tu organización y así potenciar el crecimiento del negocio.';
+		$datos['descripcion'] =  '';
 		$datos['content'] = 'va_conmigo/colabora';
 		$this->load->view('layout', $datos);
 	}
@@ -55,8 +52,7 @@ class va_conmigo extends CI_Controller {
 		$this->ViewBag['layout_title'] = "Convertirse en socio de negocios";
 		$datos['home'] = false;
 		$datos['urlBanner2'] = 'img/va-conmigo.png';
-		$datos['tituloH4'] = 'Evaluatest va conmigo en la alineación de mi talento';
-		$datos['descripcion'] =  'Diagnostica el Talento y agiliza tus procesos de Atracción y Desarrollo, encuentra a las personas adecuadas para tu organización y así potenciar el crecimiento del negocio.';
+		$datos['descripcion'] =  '';
 		$datos['content'] = 'va_conmigo/socio_de_negocios';
 		$this->load->view('layout', $datos);
 	}
@@ -66,8 +62,7 @@ class va_conmigo extends CI_Controller {
 		$this->ViewBag['layout_title'] = "Cambiando Historias";
 		$datos['home'] = false;
 		$datos['urlBanner2'] = 'img/va-conmigo.png';
-		$datos['tituloH4'] = 'Evaluatest va conmigo en la alineación de mi talento';
-		$datos['descripcion'] =  'Diagnostica el Talento y agiliza tus procesos de Atracción y Desarrollo, encuentra a las personas adecuadas para tu organización y así potenciar el crecimiento del negocio.';
+		$datos['descripcion'] =  '';
 		$datos['content'] = 'va_conmigo/cambiando_historias';
 		$this->load->view('layout', $datos);
 	}
@@ -77,10 +72,11 @@ class va_conmigo extends CI_Controller {
 		$this->ViewBag['layout_title'] = "Responsabilidad Social";
 		$datos['home'] = false;
 		$datos['urlBanner2'] = 'img/va-conmigo.png';
-		$datos['tituloH4'] = 'Evaluatest va conmigo en la alineación de mi talento';
-		$datos['descripcion'] =  'Diagnostica el Talento y agiliza tus procesos de Atracción y Desarrollo, encuentra a las personas adecuadas para tu organización y así potenciar el crecimiento del negocio.';
+		$datos['descripcion'] =  '';
 		$datos['content'] = 'va_conmigo/responsabilidad_social';
 		$this->load->view('layout', $datos);
 	}
+}
 /* End of file welcome.php */
 /* Location: ./application/controllers/welcome.php */
+?>
