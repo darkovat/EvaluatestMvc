@@ -74,16 +74,16 @@
 						<a href="<?php echo base_url() ?>consultoria.php?op=consultoria">Consultoría</a>
 						<div class='dropdown3 bg_style3'>
 							<div class='col1'>
-								<a href="<?php echo base_url() ?>views/consultoria-3.php?op=consultoria">Diseño y Desarrollo de Modelo de Competencias</a>
-								<a href="">Mapeo a Psicometrías de Modelo de Competencias</a>
-								<a href="">Brivé Centro de Competencias</a>
-								<a href="">Servicios de Evaluación</a>
+								<a href="<?php echo site_url('consultoria/diseno_desarrollo');?>">Diseño y Desarrollo de Modelo de Competencias</a>
+								<a href="<?php echo site_url('consultoria/mapeo_psicometrias');?>">Mapeo a Psicometrías de Modelo de Competencias</a>
+								<a href="<?php echo site_url('consultoria/centro_competencias');?>">Brivé Centro de Competencias</a>
+								<a href="<?php echo site_url('consultoria/servicios_evaluacion');?>">Servicios de Evaluación</a>
 							</div>
 							<div class='col2'>
-								<a href="">Evaluación 360° por Competencias</a>
-								<a href="">Estudio Inventario de Talento</a>
-								<a href="">Estudio Inventario Fuerza de Ventas</a>
-								<a href="">Estudio de Clima y Satisfacción</a>
+								<a href="<?php echo site_url('consultoria/evaluacion_360');?>">Evaluación 360° por Competencias</a>
+								<a href="<?php echo site_url('consultoria/estudio_inventario');?>">Estudio Inventario de Talento</a>
+								<a href="<?php echo site_url('consultoria/estudio_inventario_fuerza');?>">Estudio Inventario Fuerza de Ventas</a>
+								<a href="<?php echo site_url('consultoria/estudio_clima');?>">Estudio de Clima y Satisfacción</a>
 							</div>
 						</div>
 					  </li>
@@ -137,10 +137,7 @@
 				<img src="<?php echo base_url().$urlBanner2;?>">	
 			</div>
 			<div class='description-banner2 bg_red'>
-				<h4><?php echo $tituloH4?></h4>
-				<p><?php echo $descripcion ?>
-				</p>
-				<a class='more-sup' href='#'>más<span class='more-sup-icon'>more</span></a>
+				<p><?php echo $descripcion ?></p>
 			</div>
 		</div>
 	<?php }?>

@@ -1,6 +1,6 @@
-﻿<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
-class va_conmigo extends CI_Controller {
+class consultoria extends CI_Controller {
 
 	/**
 	 * Index Page for this controller.
@@ -17,70 +17,86 @@ class va_conmigo extends CI_Controller {
 	 * map to /index.php/welcome/<method_name>
 	 * @see http://codeigniter.com/user_guide/general/urls.html
 	 */
-	function vision_mision_valores()
+	function diseno_desarrollo()
 	{
 		$this->ViewBag['layout_title'] = "Visión, Misión y Valores";
 		$datos['home'] = false;
 		$datos['urlBanner2'] = 'img/va-conmigo.png';
-		$datos['tituloH4'] = 'Estudio de habilidades de la fuerza de ventas';
-		$datos['descripcion'] =  'Es una solución de diagnóstico ideal para identificar las principales habilidades del equipo comercial, así como aquellas áreas que requieren desarrollo; con base en este análisis se determinan las necesidades y planes de capacitación que permitirán incrementar la efectividad de la fuerza de ventas.';
-		$datos['content'] = 'va_conmigo/vision_mision_valores';
+		$datos['descripcion'] =  'Diagnostica el Talento y agiliza tus procesos de Atracción y Desarrollo, encuentra a las personas adecuadas para tu organización y así potenciar el crecimiento del negocio.';
+		$datos['content'] = 'consultoria/diseno_desarrollo';
 		$this->load->view('layout', $datos);
 	}
 	
-	function adn()
+	function mapeo_psicometrias()
 	{
 		$this->ViewBag['layout_title'] = "ADN Brivé";
 		$datos['home'] = false;
 		$datos['urlBanner2'] = 'img/va-conmigo.png';
-		$datos['tituloH4'] = 'Evaluatest va conmigo en la alineación de mi talento';
 		$datos['descripcion'] =  'Diagnostica el Talento y agiliza tus procesos de Atracción y Desarrollo, encuentra a las personas adecuadas para tu organización y así potenciar el crecimiento del negocio.';
-		$datos['content'] = 'va_conmigo/adn';
+		$datos['content'] = 'consultoria/mapeo_psicometrias';
 		$this->load->view('layout', $datos);
 	}
 	
-	function colabora()
+	function centro_competencias()
 	{
 		$this->ViewBag['layout_title'] = "Colabora en nuestro Equipo";
 		$datos['home'] = false;
 		$datos['urlBanner2'] = 'img/va-conmigo.png';
-		$datos['tituloH4'] = 'Evaluatest va conmigo en la alineación de mi talento';
 		$datos['descripcion'] =  'Diagnostica el Talento y agiliza tus procesos de Atracción y Desarrollo, encuentra a las personas adecuadas para tu organización y así potenciar el crecimiento del negocio.';
-		$datos['content'] = 'va_conmigo/colabora';
+		$datos['content'] = 'consultoria/centro_competencias';
 		$this->load->view('layout', $datos);
 	}
 	
-	function socio_de_negocios()
+	function servicios_evaluacion()
 	{
 		$this->ViewBag['layout_title'] = "Convertirse en socio de negocios";
 		$datos['home'] = false;
 		$datos['urlBanner2'] = 'img/va-conmigo.png';
-		$datos['tituloH4'] = 'Evaluatest va conmigo en la alineación de mi talento';
 		$datos['descripcion'] =  'Diagnostica el Talento y agiliza tus procesos de Atracción y Desarrollo, encuentra a las personas adecuadas para tu organización y así potenciar el crecimiento del negocio.';
-		$datos['content'] = 'va_conmigo/socio_de_negocios';
+		$datos['content'] = 'consultoria/servicios_evaluacion';
 		$this->load->view('layout', $datos);
 	}
 	
-	function cambiando_historias()
+	function evaluacion_360()
 	{
 		$this->ViewBag['layout_title'] = "Cambiando Historias";
 		$datos['home'] = false;
 		$datos['urlBanner2'] = 'img/va-conmigo.png';
-		$datos['tituloH4'] = 'Evaluatest va conmigo en la alineación de mi talento';
 		$datos['descripcion'] =  'Diagnostica el Talento y agiliza tus procesos de Atracción y Desarrollo, encuentra a las personas adecuadas para tu organización y así potenciar el crecimiento del negocio.';
-		$datos['content'] = 'va_conmigo/cambiando_historias';
+		$datos['content'] = 'consultoria/evaluacion_360';
 		$this->load->view('layout', $datos);
 	}
 	
-	function responsabilidad_social()
+	function estudio_inventario()
 	{
 		$this->ViewBag['layout_title'] = "Responsabilidad Social";
 		$datos['home'] = false;
 		$datos['urlBanner2'] = 'img/va-conmigo.png';
-		$datos['tituloH4'] = 'Evaluatest va conmigo en la alineación de mi talento';
-		$datos['descripcion'] =  'Diagnostica el Talento y agiliza tus procesos de Atracción y Desarrollo, encuentra a las personas adecuadas para tu organización y así potenciar el crecimiento del negocio.';
-		$datos['content'] = 'va_conmigo/responsabilidad_social';
+		$datos['descripcion'] =  'Es la solución que permite identificar al talento de la organización, potenciarlo y lograr mejores esultados de negocio.';
+		$datos['content'] = 'consultoria/estudio_inventario';
 		$this->load->view('layout', $datos);
 	}
+
+	function estudio_inventario_fuerza()
+	{
+		$this->ViewBag['layout_title'] = "Responsabilidad Social";
+		$datos['home'] = false;
+		$datos['urlBanner2'] = 'img/va-conmigo.png';
+		$datos['descripcion'] =  'Es una solución de diagnóstico ideal para identificar las principales habilidades del equipo comercial, así como aquellas áreas que requieren desarrollo; con base en este análisis se determinan las necesidades y planes de capacitación que permitirán incrementar la efectividad de la fuerza de ventas.';
+		$datos['content'] = 'consultoria/estudio_inventario_fuerza';
+		$this->load->view('layout', $datos);
+	}
+
+	function estudio_clima()
+	{
+		$this->ViewBag['layout_title'] = "Responsabilidad Social";
+		$datos['home'] = false;
+		$datos['urlBanner2'] = 'img/va-conmigo.png';
+		$datos['descripcion'] =  'Conoce qué mejoras se pueden realizar en el entorno organizacional para incrementar la productividad de los colaboradores y arraigar el compromiso de lograr los objetivos de negocio.';
+		$datos['content'] = 'consultoria/estudio_clima';
+		$this->load->view('layout', $datos);
+	}
+
+}
 /* End of file welcome.php */
 /* Location: ./application/controllers/welcome.php */
