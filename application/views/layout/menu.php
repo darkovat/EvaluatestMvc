@@ -140,12 +140,7 @@
 				<img src="<?php echo base_url().$urlBanner2;?>">	
 			</div>
 			<div class='description-banner2 bg_red'>
-<<<<<<< HEAD
-				<p><?php echo $descripcion ?>
-				</p>
-=======
 				<p><?php echo $descripcion ?></p>
->>>>>>> 6074ef02f4c7a217238c8e4fefbf171439d4bcc8
 			</div>
 		</div>
 	<?php }?>
