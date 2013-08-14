@@ -121,7 +121,7 @@
 	</div>
 	<div class='container'>
 	<?php if ($home === TRUE){?>
-		<h1 class='titleA color_green'>Cuidando el mejor Capital de tu empresa, el Capital Humano</h1>
+		<h1 class='titleA color_green'>Soluciones para diagnosticar e identificar al Talento idóneo</h1>
 		<div id='banner'>
 			<div id='content_video'>
 				<div id='video_banner'>
@@ -130,9 +130,7 @@
 			</div>
 		</div>
 		<div id='news' class='bg_style'>
-			<p>
-				<strong class='color_blue'>NOTICIAS: </strong>Your bones don't break, mine do. That's clear. Your cells react to bacteria and viruses differently than mine.
-			</p>
+				<span class='color_blue textoNoticias'>NOTICIAS: </span><ul id="ticker" class="newsticker"><li><span>Evaluatest&reg; presente en el próximo congreso de la AMEDIRH, 11 y 12 de Septiembre, WTC</span></li><li><span>Próximo Taller de Employer Branding, 27 de Agosto, 8:30 a 12:00 hrs., Oficinas Evaluatest: Medellin 32, Col. Roma, México, D.F</span></li></ul>
 		</div>
 	<?php } else{?>
 		<div id='banner2'>

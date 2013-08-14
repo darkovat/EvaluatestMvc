@@ -832,8 +832,40 @@ th {
   position: relative;
   text-align: center;
 }
-#news p {
-  margin: 0;
+span.textoNoticias{
+	float:left;
+	margin-right:20px;
+	margin-left: 60px;
+	font-weight:bold;
+}
+.tickercontainer{
+width: 738px; 
+height: 20px; 
+margin: 0; 
+padding: 0;
+overflow: hidden;
+float:left;
+}
+
+.tickercontainer .mask { /* that serves as a mask. so you get a sort of padding both left and right */
+position: relative;
+width: 738px;
+overflow: hidden;
+}
+ul.newsticker { /* that's your list */
+position: relative;
+left: 750px;
+list-style-type: none;
+margin: 0;
+padding: 0;
+}
+ul.newsticker li {
+float: left; /* important: display inline gives incorrect results when you check for elem's width */
+margin: 0;
+padding: 0;
+}
+ul.newsticker span{
+margin: 0 20px 0 0;
 }
 #menu-sidebar {
   font-size: 0.8em;
@@ -911,7 +943,6 @@ th {
 }
 #video_banner {
   background: #c5e5ec;
-  border: 5px solid #fff;
   -webkit-box-shadow: 0 2px 10px rgba(0,0,0,0.9);
   -moz-box-shadow: 0 2px 10px rgba(0,0,0,0.9);
   box-shadow: 0 2px 10px rgba(0,0,0,0.9);

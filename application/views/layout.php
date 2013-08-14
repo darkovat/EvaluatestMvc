@@ -34,8 +34,10 @@
 	<script src="<?php echo base_url();?>js/jquery-1.9.1.min.js"></script>
 	<script type="text/javascript" src="<?php echo base_url();?>js/funciones.js"></script>
 	<script type="text/javascript" src="<?php echo base_url();?>js/jquery.wd.social.js"></script>
+	<script type="text/javascript" src="<?php echo base_url();?>js/jquery.li-scroller.1.0.js"></script>
 	<script type="text/javascript">
 		jQuery(document).ready(function ($) {
+			$("ul#ticker").liScroll();
 			if (!jQuery().dcSocialTabs) {
 				$.getScript("jquery.social.media.tabs.1.3.js", function () {})
 			}
