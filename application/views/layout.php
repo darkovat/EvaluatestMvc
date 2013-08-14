@@ -15,7 +15,7 @@
 <body>
 	<div class='container clearfix'>
 		<ul id='menu-top'>
-			<li><a href="">Inicio</a></li>
+			<li><a href="<?php echo base_url();?>">Inicio</a></li>
 			<li><a href="">Contacto</a></li>
 			<li><a href="">Centro de Solución a Clientes</a></li>
 			<li><a href="">Buzón</a></li>

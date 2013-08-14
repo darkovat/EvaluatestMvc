@@ -2,8 +2,8 @@
 	<div class='container'>
 		<div id='cabecera'>
 			<div class='btn_client'>
-				<a class='bg_color_purple' href="">Acceso a clientes</a>
-				<a id='access_candidates' class='bg_color_blue2' href="">Acceso a candidatos</a>
+				<a class='bg_color_purple' href="https://www.evaluatest.com/Core/AtraccionSeleccion">Acceso a clientes</a>
+				<a id='access_candidates' class='bg_color_blue2' href="https://www.evaluatest.com/Core/Evaluate">Acceso a candidatos</a>
 			</div>
 		</div>
 		<div class='three columns'>
@@ -74,7 +74,7 @@
 						</div>
 					  </li>
 					  <li>
-						<a href="<?php echo base_url() ?>consultoria.php?op=consultoria">Consultoría</a>
+						<a>Consultoría</a>
 						<div class='dropdown3 bg_style3'>
 							<div class='col1'>
 								<a href="<?php echo site_url('consultoria/diseno_desarrollo');?>">Diseño y Desarrollo de Modelo de Competencias</a>
@@ -91,7 +91,7 @@
 						</div>
 					  </li>
 					  <li>
-						<a href="<?php echo base_url() ?>servicios.php?op=servicios">Servicios</a>
+						<a>Servicios</a>
 						<div class='dropdown4 bg_style3'>
 							<a href="<?php echo base_url() ?>views/servicios-3.php?op=servicios">Servicios de Implementación</a>
 							<a href="">Capacitación</a>
@@ -99,9 +99,9 @@
 							<a href="">Consultas y Tercerización</a>
 						</div>
 					  </li>
-					  <li><a href="<?php echo base_url() ?>historias.php?op=historias">Cambiando historias</a></li>
+					  <li><a>Cambiando historias</a></li>
 					  <li>
-						<a href="<?php echo base_url() ?>comunidad.php?op=comunidad">Comunidad</a>
+						<a>Comunidad</a>
 						<div class='dropdown5 bg_style3'>
 							<div class='col1'>
 								<a href="<?php echo base_url() ?>views/comunidad-3.php?op=comunidad">White Papers</a>

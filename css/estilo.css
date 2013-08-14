@@ -514,7 +514,7 @@ table {
   width: 100%;
 }
 #banner {
-  background: url("../img/bg_banner.jpg") no-repeat;
+  background: url("../img/banner_home.jpg") no-repeat;
   clear: both;
   margin-top: 0.5em;
   height: 300px;
@@ -708,7 +708,7 @@ table {
   margin-top: 1em;
 }
 #content_video {
-  background: url("../img/bg_video_banner.png") no-repeat;
+  background: #00A7EA;
   border-radius: 0 0 0 60px;
   -webkit-border-radius: 0 0 0 60px;
   -moz-border-radius: 0 0 0 60px;
