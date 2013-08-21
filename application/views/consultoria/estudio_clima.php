@@ -17,6 +17,7 @@
 				</div>
 
 				<div id='alcance' class='seccion'>
+					<h2 class='titleB color_orange'>Alcance de la Solución</h2>
 					<strong>Esta solución permitirá:</strong>
 					<ul class='list'>
 						<li>Conocer el perfil de competencias laborales de los colaboradores y el grado de compatibilidad con el puesto.</li>
@@ -31,6 +32,7 @@
 				</div>
 
 				<div id='incluye' class='seccion'>
+					<h2 class='titleB color_orange'>¿Qué incluye?</h2>
 					<strong>Solución:</strong>
 					<p>
 						a) Cuestionario que mide 16 indicadores, contenidos en el sistema Evaluatest.<br />
@@ -65,6 +67,7 @@
 				</div>
 
 				<div id='beneficios' class='seccion'>
+					<h2 class='titleB color_orange'>Beneficios</h2>
 					<p>
 						<ul class='list'>
 

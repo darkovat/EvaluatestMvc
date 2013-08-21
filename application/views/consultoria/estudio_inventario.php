@@ -22,6 +22,7 @@
 				</div>
 
 				<div id='alcance' class='seccion'>
+					<h2 class='titleB color_orange'>Alcance de la Solución</h2>
 					<strong>Esta solución permitirá:</strong>
 					<ul class='list'>
 						<li>Conocer el nivel de satisfacción general de los colaboradores con respecto a la empresa.</li>
@@ -39,6 +40,7 @@
 				</div>
 
 				<div id='incluye' class='seccion'>
+					<h2 class='titleB color_orange'>¿Qué incluye?</h2>
 					<p>El estudio incluye el servicio de consultoría para la implementación, análisis e interpretación de resultados y el uso de la plataforma Evaluatest®
 						para la aplicación de las evaluaciones correspondientes.
 					</p>
@@ -70,6 +72,7 @@
 				</div>
 
 				<div id='beneficios' class='seccion'>
+					<h2 class='titleB color_orange'>Beneficios</h2>
 					<p>
 						<strong>Precisión en el Diagnóstico.</strong>
 						<ul class='list'>

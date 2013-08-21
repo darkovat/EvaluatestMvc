@@ -12,7 +12,7 @@
 					</p>
 				</div>
 				<div id='alcance' class='seccion'>
-					
+					<h2 class='titleB color_orange'>Alcance de la Solución</h2>
 					<ul class='list'>
 						<li>Mejorar el aprovechamiento de las habilidades de los asesores comerciales</li>
 						<li>Identificar el nivel de compatibilidad de los asesores y gerentes, de acuerdo a sus fortalezas y áreas de oportunidad, con las necesidades del puesto.</li>
@@ -27,6 +27,7 @@
 				</div>
 
 				<div id='incluye' class='seccion'>
+					<h2 class='titleB color_orange'>¿Qué incluye?</h2>
 					<p>El Estudio de habilidades de la fuerza de ventas es una solución que incluye dos elementos importantes:</p>
 					<p>
 						a) El servicio de consultoría para la implementación, análisis e interpretación de resultados.<br />
@@ -59,6 +60,7 @@
 				</div>
 
 				<div id='beneficios' class='seccion'>
+					<h2 class='titleB color_orange'>Beneficios</h2>
 					<p>
 						<strong>Precisión en el Diagnóstico.</strong>
 						<ul class='list'>
