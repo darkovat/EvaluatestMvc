@@ -27,15 +27,36 @@ class home extends CI_Controller {
 		$datos['home'] = true;
 		$datos['content'] = 'home';
 		$this->load->view('layout', $datos);
-		
-				
-		/*
-		$this->ViewBag['layout_title'] = "Evaluatest";
-		$this->load->view('layout/head');
-		$this->load->view('layout/menu',$data);
-		$this->load->view('home');
-		$this->load->view('layout/footer');
-		*/
+	}
+	
+	function problemas_negocio()
+	{
+		$this->ViewBag['layout_title'] = "";
+		$datos['home'] = false;
+		$datos['urlBanner2'] = 'img/va-conmigo.png';
+		$datos['descripcion'] =  '';
+		$datos['content'] = 'home/problemas_negocio';
+		$this->load->view('layout', $datos);
+	}
+	
+	function por_segmento()
+	{
+		$this->ViewBag['layout_title'] = "";
+		$datos['home'] = false;
+		$datos['urlBanner2'] = 'img/va-conmigo.png';
+		$datos['descripcion'] =  '';
+		$datos['content'] = 'home/por_segmento';
+		$this->load->view('layout', $datos);
+	}
+	
+	function mi_rol()
+	{
+		$this->ViewBag['layout_title'] = "";
+		$datos['home'] = false;
+		$datos['urlBanner2'] = 'img/va-conmigo.png';
+		$datos['descripcion'] =  '';
+		$datos['content'] = 'home/mi_rol';
+		$this->load->view('layout', $datos);
 	}
 }
 

@@ -5,7 +5,7 @@
 		<p>
 			Ayudamos a las organizaciones a lograr sus objetivos de negocio, por medio de nuestras Soluciones que permiten alinear el Talento de las personas y el Entorno de las organizaciones a la estrategia del negocio.
 		</p>
-		<a class='more' href="">más</a>
+		<a class='more' href="<?php echo site_url('home/problemas_negocio');?>">más</a>
 	</div>
 	<div class='one-third column articles'>
 		<div class='img_articles'><img src="<?php echo base_url();?>img/corriendo.jpg"></div>
@@ -13,7 +13,7 @@
 		<p>
 			Soluciones de Capital Humano a la medida. Si eres un Corporativo, Grande, Mediana, Pequeña o Micro empresa,  Evaluatest tiene una Solución a tus necesidades de Capital Humano. 
 		</p>
-		<a class='more' href="">más</a>
+		<a class='more' href="<?php echo site_url('home/por_segmento');?>">más</a>
 	</div>
 	<div class='one-third column articles'>
 		<div class='img_articles'><img src="<?php echo base_url();?>img/director.jpg"></div>
@@ -21,7 +21,7 @@
 		<p>
 			Sabemos de tus prioridades, aspiraciones y preocupaciones relacionadas con el Capital Humano en tu organización. De lo importante que es para ti lograr tus metas y objetivos. 
 		</p>
-		<a class='more' href="">más</a>
+		<a class='more' href="<?php echo site_url('home/mi_rol');?>">más</a>
 	</div>
 </div>
 <div class='container'>
