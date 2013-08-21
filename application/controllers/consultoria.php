@@ -19,50 +19,50 @@ class consultoria extends CI_Controller {
 	 */
 	function desarrollo_competencias()
 	{
-		$this->ViewBag['layout_title'] = "Visión, Misión y Valores";
+		$this->ViewBag['layout_title'] = "";
 		$datos['home'] = false;
-		$datos['urlBanner2'] = 'img/banners/consultoria.jpg';
-		$datos['descripcion'] =  'Diagnostica el Talento y agiliza tus procesos de Atracción y Desarrollo, encuentra a las personas adecuadas para tu organización y así potenciar el crecimiento del negocio.';
+		$datos['urlBanner2'] = 'img/banners/banner1.jpg';
+		$datos['descripcion'] =  '';
 		$datos['content'] = 'consultoria/desarrollo_competencias';
 		$this->load->view('layout', $datos);
 	}
 	
 	function diagnostico_modelos()
 	{
-		$this->ViewBag['layout_title'] = "ADN Brivé";
+		$this->ViewBag['layout_title'] = "";
 		$datos['home'] = false;
-		$datos['urlBanner2'] = 'img/banners/consultoria.jpg';
-		$datos['descripcion'] =  'Diagnostica el Talento y agiliza tus procesos de Atracción y Desarrollo, encuentra a las personas adecuadas para tu organización y así potenciar el crecimiento del negocio.';
+		$datos['urlBanner2'] = 'img/banners/banner1.jpg';
+		$datos['descripcion'] =  '';
 		$datos['content'] = 'consultoria/diagnostico_modelos';
 		$this->load->view('layout', $datos);
 	}
 	
 	function centro_competencias()
 	{
-		$this->ViewBag['layout_title'] = "Colabora en nuestro Equipo";
+		$this->ViewBag['layout_title'] = "";
 		$datos['home'] = false;
-		$datos['urlBanner2'] = 'img/banners/consultoria.jpg';
-		$datos['descripcion'] =  'Diagnostica el Talento y agiliza tus procesos de Atracción y Desarrollo, encuentra a las personas adecuadas para tu organización y así potenciar el crecimiento del negocio.';
+		$datos['urlBanner2'] = 'img/banners/banner1.jpg';
+		$datos['descripcion'] =  '';
 		$datos['content'] = 'consultoria/centro_competencias';
 		$this->load->view('layout', $datos);
 	}
 	
 	function servicios_evaluacion()
 	{
-		$this->ViewBag['layout_title'] = "Convertirse en socio de negocios";
+		$this->ViewBag['layout_title'] = "";
 		$datos['home'] = false;
-		$datos['urlBanner2'] = 'img/banners/consultoria.jpg';
-		$datos['descripcion'] =  'Diagnostica el Talento y agiliza tus procesos de Atracción y Desarrollo, encuentra a las personas adecuadas para tu organización y así potenciar el crecimiento del negocio.';
+		$datos['urlBanner2'] = 'img/banners/banner10.jpg';
+		$datos['descripcion'] =  "";
 		$datos['content'] = 'consultoria/servicios_evaluacion';
 		$this->load->view('layout', $datos);
 	}
 	
 	function evaluacion_360()
 	{
-		$this->ViewBag['layout_title'] = "Cambiando Historias";
+		$this->ViewBag['layout_title'] = "";
 		$datos['home'] = false;
 		$datos['urlBanner2'] = 'img/banners/consultoria.jpg';
-		$datos['descripcion'] =  'Diagnostica el Talento y agiliza tus procesos de Atracción y Desarrollo, encuentra a las personas adecuadas para tu organización y así potenciar el crecimiento del negocio.';
+		$datos['descripcion'] =  "";
 		$datos['content'] = 'consultoria/evaluacion_360';
 		$this->load->view('layout', $datos);
 	}

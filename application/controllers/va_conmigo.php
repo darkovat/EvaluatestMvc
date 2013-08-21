@@ -57,16 +57,6 @@ class va_conmigo extends CI_Controller {
 		$this->load->view('layout', $datos);
 	}
 	
-	function cambiando_historias()
-	{
-		$this->ViewBag['layout_title'] = "Cambiando Historias";
-		$datos['home'] = false;
-		$datos['urlBanner2'] = 'img/va-conmigo.png';
-		$datos['descripcion'] =  '';
-		$datos['content'] = 'va_conmigo/cambiando_historias';
-		$this->load->view('layout', $datos);
-	}
-	
 	function responsabilidad_social()
 	{
 		$this->ViewBag['layout_title'] = "Responsabilidad Social";

@@ -3,7 +3,19 @@
 		<div id='contenido2' class='sixteen columns'>
 			<div class='ten columns omega'>
 				<div id='descripcion' class='seccion'>
-					<h2 class='titleB color_orange'>Diseño y Desarrollo de Modelo de Competencias</h2>
+					<h2 class='titleB color_orange'>En desarrollo</h2>
+					
+				</div>
+				<div id='alcance' class='seccion'>
+					<h2 class='titleB color_orange'>En desarrollo</h2>
+					
+				</div>
+				<div id='incluye' class='seccion'>
+					<h2 class='titleB color_orange'>En desarrollo</h2>
+					
+				</div>
+				<div id='beneficios' class='seccion'>
+					<h2 class='titleB color_orange'>En desarrollo</h2>
 					
 				</div>
 				
