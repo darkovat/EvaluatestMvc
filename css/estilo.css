@@ -245,6 +245,13 @@ table {
 .navbar .nav li .dropdown6 a:hover {
   background: #0084bf;
 }
+.subtituloMenu{
+	background: #0084bf;
+	border: 0;
+	color: #fff;
+	padding: 0.5em 0.5em 0.5em 12px;
+	display:block;
+}
 .bg_style {
   background-color: #fafafa;
   background: linear-gradient(to bottom, #dedade 0%, #fff 24%, #fff 81%, #dedade 100%);
