@@ -78,17 +78,6 @@ class soluciones extends CI_Controller {
 		$this->load->view('layout', $datos);
 	}
 	
-	function api()
-	{
-		$this->ViewBag['layout_title'] = "Evaluatest® API";
-		$datos['home'] = false;
-		$datos['urlBanner2'] = 'img/va-conmigo.png';
-		$datos['tituloH4'] = 'Evaluatest® API';
-		$datos['descripcion'] =  'Diagnostica el Talento y agiliza tus procesos de Atracción y Desarrollo, encuentra a las personas adecuadas para tu organización y así potenciar el crecimiento del negocio.';
-		$datos['content'] = 'soluciones/api';
-		$this->load->view('layout', $datos);
-	}
-	
 	function entorno()
 	{
 		$this->ViewBag['layout_title'] = "Evaluatest® Entorno";
@@ -96,16 +85,6 @@ class soluciones extends CI_Controller {
 		$datos['urlBanner2'] = 'img/va-conmigo.png';
 		$datos['descripcion'] =  '';
 		$datos['content'] = 'soluciones/api';
-		$this->load->view('layout', $datos);
-	}
-	
-	function engagement()
-	{
-		$this->ViewBag['layout_title'] = "Evaluatest® Engagement";
-		$datos['home'] = false;
-		$datos['urlBanner2'] = 'img/va-conmigo.png';
-		$datos['descripcion'] =  '';
-		$datos['content'] = 'soluciones/engagement';
 		$this->load->view('layout', $datos);
 	}
 	
@@ -119,15 +98,6 @@ class soluciones extends CI_Controller {
 		$this->load->view('layout', $datos);
 	}
 	
-	function clima()
-	{
-		$this->ViewBag['layout_title'] = "Evaluatest® Clima y satisfacción";
-		$datos['home'] = false;
-		$datos['urlBanner2'] = 'img/va-conmigo.png';
-		$datos['descripcion'] =  '';
-		$datos['content'] = 'soluciones/clima';
-		$this->load->view('layout', $datos);
-	}
 }
 /* End of file welcome.php */
 /* Location: ./application/controllers/welcome.php */

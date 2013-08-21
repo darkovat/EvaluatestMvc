@@ -214,6 +214,7 @@ table {
 }
 .dropdown2 {
   width: 350px;
+  padding: 0 0 10px 0;
 }
 .dropdown3 {
   width: 350px;
@@ -251,6 +252,10 @@ table {
 	color: #fff;
 	padding: 0.5em 0.5em 0.5em 12px;
 	display:block;
+}
+.regSuperIndice{
+	vertical-align:super;
+	font-size: 0.7em;
 }
 .bg_style {
   background-color: #fafafa;

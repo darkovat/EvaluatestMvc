@@ -36,7 +36,7 @@
 						</div>
 					  </li>
 					  <li>
-						<a>Evaluatest&reg; en mi rol</a>
+						<a>Evaluatest<span class="regSuperIndice">&reg;</span> en mi rol</a>
 						<div class='dropdown6 bg_style3'>
 							<div class='col3'>
 								<a href="<?php echo site_url('en_mi_rol/ejecutivo_atraccion_talento');?>">Ejecutivo de Atracción de Talento</a>
@@ -52,24 +52,22 @@
 						</div>
 					  </li>
 					  <li>
-						<a>Productos</a>
+						<a>Soluciones</a>
 						<div class='dropdown2 bg_style3'>
 							<div class='col1'>
-								<a>Soluciones Talento</a>
-								<a href="<?php echo site_url('productos/vivelo');?>">Evaluatest&reg; Vívelo</a>
-								<a href="<?php echo site_url('productos/inside');?>">Evaluatest&reg; Inside</a>
-								<a href="<?php echo site_url('productos/now');?>">Evaluatest&reg; Now</a>
-								<a href="<?php echo site_url('productos/esic');?>">Estudio Situacional de Competencias (ESIC)</a>
-								<a href="<?php echo site_url('productos/desempeno');?>">Evaluatest&reg; Desempeño</a>
-								<a href="<?php echo site_url('productos/publicacion');?>">Evaluatest&reg; Publicación de Vacantes</a>
-								<a href="<?php echo site_url('productos/api');?>">Evaluatest&reg; Api</a>
+								<span class="subtituloMenu">Atracción y Selección de Talento</span>
+								<a href="<?php echo site_url('soluciones/vivelo');?>">Evaluatest<span class="regSuperIndice">&reg;</span> Vívelo</a>
+								<a href="<?php echo site_url('soluciones/inside');?>">Evaluatest<span class="regSuperIndice">&reg;</span> Inside</a>
+								<a href="<?php echo site_url('soluciones/now');?>">Evaluatest<span class="regSuperIndice">&reg;</span> Now</a>
+								<a href="<?php echo site_url('soluciones/publicacion');?>">Evaluatest<span class="regSuperIndice">&reg;</span> Publicación de Vacantes</a>
+								<span class="subtituloMenu">Desarrollo del Talento</span>
+								<a href="<?php echo site_url('soluciones/esic');?>">Estudio Situacional de Competencias (ESIC)</a>
+								<a href="<?php echo site_url('soluciones/desempeno');?>">Evaluatest<span class="regSuperIndice">&reg;</span> Desempeño</a>
 							</div>
 							<div class='col2'>
-								<a>Soluciones Entorno</a>
-								<a href="<?php echo site_url('productos/entorno');?>">Evaluatest&reg; Entorno</a>
-								<a href="<?php echo site_url('productos/engagement');?>">Evaluatest&reg; Engagement</a>
-								<a href="<?php echo site_url('productos/encuesta_salida');?>">Evaluatest&reg; Encuesta de Salida</a>
-								<a href="<?php echo site_url('productos/clima');?>">Evaluatest&reg; Clima y Satisfacción</a>
+								<span class="subtituloMenu">Entorno Organizacional</span>
+								<a href="<?php echo site_url('soluciones/entorno');?>">Evaluatest<span class="regSuperIndice">&reg;</span> Entorno (Compromiso y Clima Laboral)</a>
+								<a href="<?php echo site_url('soluciones/encuesta_salida');?>">Evaluatest<span class="regSuperIndice">&reg;</span> Encuesta de Salida</a>
 							</div>
 						</div>
 					  </li>
