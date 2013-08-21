@@ -210,10 +210,11 @@ table {
   z-index: 8;
 }
 .dropdown1 {
-  width: 420px;
+  width: 200px;
 }
 .dropdown2 {
   width: 350px;
+  padding: 0 0 10px 0;
 }
 .dropdown3 {
   width: 350px;
@@ -244,6 +245,17 @@ table {
 .navbar .nav li .dropdown5 a:hover,
 .navbar .nav li .dropdown6 a:hover {
   background: #0084bf;
+}
+.subtituloMenu{
+	background: #0084bf;
+	border: 0;
+	color: #fff;
+	padding: 0.5em 0.5em 0.5em 12px;
+	display:block;
+}
+.regSuperIndice{
+	vertical-align:super;
+	font-size: 0.7em;
 }
 .bg_style {
   background-color: #fafafa;
@@ -716,7 +728,7 @@ table {
   right: 0;
   top: 0;
   width: 425px;
-  z-index:10;
+  z-index:4;
   color: #fff;
   font-style: oblique;
   line-height: 1.2;

@@ -17,23 +17,23 @@ class consultoria extends CI_Controller {
 	 * map to /index.php/welcome/<method_name>
 	 * @see http://codeigniter.com/user_guide/general/urls.html
 	 */
-	function diseno_desarrollo()
+	function desarrollo_competencias()
 	{
 		$this->ViewBag['layout_title'] = "Visión, Misión y Valores";
 		$datos['home'] = false;
 		$datos['urlBanner2'] = 'img/banners/consultoria.jpg';
 		$datos['descripcion'] =  'Diagnostica el Talento y agiliza tus procesos de Atracción y Desarrollo, encuentra a las personas adecuadas para tu organización y así potenciar el crecimiento del negocio.';
-		$datos['content'] = 'consultoria/diseno_desarrollo';
+		$datos['content'] = 'consultoria/desarrollo_competencias';
 		$this->load->view('layout', $datos);
 	}
 	
-	function mapeo_psicometrias()
+	function diagnostico_modelos()
 	{
 		$this->ViewBag['layout_title'] = "ADN Brivé";
 		$datos['home'] = false;
 		$datos['urlBanner2'] = 'img/banners/consultoria.jpg';
 		$datos['descripcion'] =  'Diagnostica el Talento y agiliza tus procesos de Atracción y Desarrollo, encuentra a las personas adecuadas para tu organización y así potenciar el crecimiento del negocio.';
-		$datos['content'] = 'consultoria/mapeo_psicometrias';
+		$datos['content'] = 'consultoria/diagnostico_modelos';
 		$this->load->view('layout', $datos);
 	}
 	
