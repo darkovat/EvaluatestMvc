@@ -325,6 +325,14 @@ table {
 .list li {
   margin-bottom: 0.5em;
 }
+.list-ol
+{
+  list-style-type: decimal;
+}
+.list-ol li
+{
+  margin-bottom: 1em;
+}
 .navbar .nav {
   font-size: 0.9em;
   display: block;
