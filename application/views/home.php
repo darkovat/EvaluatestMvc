@@ -19,7 +19,7 @@
 		<div class='img_articles'><img src="<?php echo base_url();?>img/director.jpg"></div>
 		<h4 class='color_blue_dark'>Evaluatest en mi rol</h4>
 		<p>
-			Sabemos de tus prioridades, aspiraciones y preocupaciones relacionadas con el Capital Humano en tu organización. De lo importante que es para ti lograr tus metas y objetivos. 
+			Permítenos acompañarte para hacer más fácil tu trabajo, a lograr tus objetivos de negocio, del área y del puesto, a transformar tu organización por medio del Talento y  convertirlo en un lugar agradable para trabajar.
 		</p>
 		<a class='more' href="<?php echo site_url('home/mi_rol');?>">más</a>
 	</div>
