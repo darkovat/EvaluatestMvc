@@ -119,20 +119,39 @@
 			</nav>
 		</div>
 	</div>
-	<div class='container'>
+	
 	<?php if ($home === TRUE){?>
-		<h1 class='titleA color_green'>Soluciones para diagnosticar e identificar al Talento idóneo</h1>
-		<div id='banner'>
-			<div id='content_video'>
-				<div id='video_banner'>
-					<iframe width="300" height="170" src="http://www.youtube.com/embed/qNZpz5PKoTs" frameborder="0" allowfullscreen></iframe>
+	<div class='container' id="bannerSlide">
+		<ul class="ulSlide">
+			<li class="liSlide">
+				<h1 class='titleA color_green'>Soluciones para diagnosticar e identificar al Talento idóneo</h1>
+				<div id='banner'>
+					<img src="<?php echo base_url();?>img/upload/banner_home.jpg" />
+					<div id='content_video' style="background: #00A7EA;">
+						<div id='video_banner'>
+							<iframe width="300" height="170" src="http://www.youtube.com/embed/qNZpz5PKoTs" frameborder="0" allowfullscreen></iframe>
+						</div>
+					</div>
 				</div>
-			</div>
-		</div>
+			</li>
+			<li class="liSlide">
+				<h1 class='titleA color_green'>Otro título</h1>
+				<div id='banner'>
+					<img src="<?php echo base_url();?>img/upload/banner_home2.jpg" />
+					<div id='content_video' style="background: #00A7EA;">
+						<p>Aquí podemos poner una descripción</p>
+					</div>
+				</div>
+			</li>
+		</ul>
+	</div>
+	<div class="container">
 		<div id='news' class='bg_style'>
-				<span class='color_blue textoNoticias'>NOTICIAS: </span><ul id="ticker" class="newsticker"><li><span>Evaluatest&reg; presente en el próximo congreso de la AMEDIRH, 11 y 12 de Septiembre, WTC</span></li><li><span>Próximo Taller de Employer Branding, 27 de Agosto, 8:30 a 12:00 hrs., Oficinas Evaluatest: Medellin 32, Col. Roma, México, D.F</span></li></ul>
+			<span class='color_blue textoNoticias'>NOTICIAS: </span><ul id="ticker" class="newsticker"><li><span>Evaluatest&reg; presente en el próximo congreso de la AMEDIRH, 11 y 12 de Septiembre, WTC</span></li><li><span>Próximo Taller de Employer Branding, 27 de Agosto, 8:30 a 12:00 hrs., Oficinas Evaluatest: Medellin 32, Col. Roma, México, D.F</span></li></ul>
 		</div>
+	</div>
 	<?php } else{?>
+	<div class='container'>
 		<div id='banner2'>
 			<div id='img-banner2'>
 				<img src="<?php echo base_url().$urlBanner2;?>">	
@@ -141,6 +160,7 @@
 				<p><?php echo $descripcion ?></p>
 			</div>
 		</div>
-	<?php }?>
 	</div>
+	<?php }?>
+	
 </header>

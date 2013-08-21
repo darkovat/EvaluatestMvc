@@ -35,8 +35,19 @@
 	<script type="text/javascript" src="<?php echo base_url();?>js/funciones.js"></script>
 	<script type="text/javascript" src="<?php echo base_url();?>js/jquery.wd.social.js"></script>
 	<script type="text/javascript" src="<?php echo base_url();?>js/jquery.li-scroller.1.0.js"></script>
+	<script type="text/javascript" src="<?php echo base_url();?>js/easySlider1.7.js"></script>
+	
 	<script type="text/javascript">
 		jQuery(document).ready(function ($) {
+			if($("#bannerSlide").length > 0){
+				$("#bannerSlide").easySlider({
+					auto: true, 
+					continuous: true,
+					controlsShow: false,
+					speed: 1200,
+					pause: 2000
+				});
+			}
 			$("ul#ticker").liScroll();
 			if (!jQuery().dcSocialTabs) {
 				$.getScript("jquery.social.media.tabs.1.3.js", function () {})
