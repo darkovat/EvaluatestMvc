@@ -75,9 +75,9 @@
 						<a>Consultoría</a>
 						<div class='dropdown3 bg_style3'>
 							<div class='col1'>
-								<a href="<?php echo site_url('consultoria/diseno_desarrollo');?>">Diseño y Desarrollo de Modelo de Competencias</a>
-								<a href="<?php echo site_url('consultoria/mapeo_psicometrias');?>">Mapeo a Psicometrías de Modelo de Competencias</a>
-								<a href="<?php echo site_url('consultoria/centro_competencias');?>">Brivé Centro de Competencias</a>
+								<a href="<?php echo site_url('consultoria/centro_competencias');?>">Centro de competencias desarrollo de modelos</a>
+								<a href="<?php echo site_url('consultoria/desarrollo_competencias');?>">Desarrollo de Competencias</a>
+								<a href="<?php echo site_url('consultoria/diagnostico_modelos');?>">Diagnóstico de modelos de competencias</a>
 								<a href="<?php echo site_url('consultoria/servicios_evaluacion');?>">Servicios de Evaluación</a>
 							</div>
 							<div class='col2'>
