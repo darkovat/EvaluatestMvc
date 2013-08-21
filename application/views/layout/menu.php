@@ -25,14 +25,12 @@
 					  <li>
 						<a>Evaluatest&reg; va conmigo</a>
 						<div class='dropdown1 bg_style3'>
-							<div class='col1'>
-								<a href="<?php echo site_url('va_conmigo/vision_mision_valores');?>">Visión, Misión y Valores</a>
-								<a href="<?php echo site_url('va_conmigo/adn');?>">ADN Brivé</a>
-								<a href="<?php echo site_url('va_conmigo/colabora');?>">Colabora en nuestro Equipo</a>
-								<a href="<?php echo site_url('va_conmigo/socio_de_negocios');?>">Convertirse en Socio de Negocios</a>
-								<a href="<?php echo site_url('va_conmigo/cambiando_historias');?>">Cambiando Historias</a>
-								<a href="<?php echo site_url('va_conmigo/responsabilidad_social');?>">Responsabilidad Social</a>
-							</div>
+							<a href="<?php echo site_url('va_conmigo/vision_mision_valores');?>">Visión, Misión y Valores</a>
+							<a href="<?php echo site_url('va_conmigo/adn');?>">ADN Brivé</a>
+							<a href="<?php echo site_url('va_conmigo/colabora');?>">Colabora en nuestro Equipo</a>
+							<a href="<?php echo site_url('va_conmigo/socio_de_negocios');?>">Convertirse en Socio de Negocios</a>
+							<a href="<?php echo site_url('va_conmigo/cambiando_historias');?>">Cambiando Historias</a>
+							<a href="<?php echo site_url('va_conmigo/responsabilidad_social');?>">Responsabilidad Social</a>
 						</div>
 					  </li>
 					  <li>
@@ -91,10 +89,10 @@
 					  <li>
 						<a>Servicios</a>
 						<div class='dropdown4 bg_style3'>
-							<a href="<?php echo base_url() ?>views/servicios-3.php?op=servicios">Servicios de Implementación</a>
+							<a href="">Servicios de Implementación</a>
 							<a href="">Capacitación</a>
+							<a href="">Integración de Evalutest<span class="regSuperIndice">®</span> con aplicaciones</a>
 							<a href="">Soporte</a>
-							<a href="">Consultas y Tercerización</a>
 						</div>
 					  </li>
 					  <li><a>Cambiando historias</a></li>
@@ -102,9 +100,9 @@
 						<a>Comunidad</a>
 						<div class='dropdown5 bg_style3'>
 							<div class='col1'>
-								<a href="<?php echo base_url() ?>views/comunidad-3.php?op=comunidad">White Papers</a>
-								<a href="">Circulo Evaluatest&reg;</a>
-								<a href="">Soporte</a>
+								<a href="">White Papers</a>
+								<a href="">Evaluatest<span class="regSuperIndice">&reg;</span> va Conmigo</a>
+								<a href="">Eventos</a>
 							</div>
 							<div class='col2'>
 								<a href="">¿Sabías qué?</a>
