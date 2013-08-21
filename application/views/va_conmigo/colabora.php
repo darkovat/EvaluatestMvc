@@ -2,17 +2,21 @@
 	<div class='container'>
 		<div id='contenido2' class='sixteen columns'>
 			<div class='ten columns omega'>
-				<div id='seccion'>
-					<h2 class='titleB color_orange'>Evaluatest Va Conmigo</h2>
-					<p>
-						Evaluatest® Suite es una poderosa herramienta de apoyo al toma de decisiones con relación al Capital Humano en lo Individual, Grupal, Organizacional que le permite lograr un Alto Desempeño de sus colaboradores en el negocio.
-					</p>
-					<p>
-						Es una herramienta estratégica para la Dirección, Recursos Humanos y Gerencias ya que con la información y conocimiento que le provee pueden apoyar sus decisiones y coordinar mejor sus esfuerzos de Capacitación, Desarrollo Organizacional, Reclutamiento y Selección a fin de mejorar la productividad de la Compañía.
-					</p>
-					<p>
-						Es la solución líder que le proporciona conocimiento objetivo para lograr un Alto Desempeño del Capital Humano en su negocio.
-					</p>
+				<div id='descripcion' class='seccion'>
+					<h2 class='titleB color_orange'>En desarrollo</h2>
+					
+				</div>
+				<div id='alcance' class='seccion'>
+					<h2 class='titleB color_orange'>En desarrollo</h2>
+					
+				</div>
+				<div id='incluye' class='seccion'>
+					<h2 class='titleB color_orange'>En desarrollo</h2>
+					
+				</div>
+				<div id='beneficios' class='seccion'>
+					<h2 class='titleB color_orange'>En desarrollo</h2>
+					
 				</div>
 			</div>
 			<div class='six columns alpha'>

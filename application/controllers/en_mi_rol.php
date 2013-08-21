@@ -21,7 +21,7 @@ class en_mi_rol extends CI_Controller {
 	{
 		$this->ViewBag['layout_title'] = "Ejecutivo de atracción de talento";
 		$datos['home'] = false;
-		$datos['urlBanner2'] = 'img/banners/en_mi_rol.jpg';
+		$datos['urlBanner2'] = 'img/banners/banner9.jpg';
 		$datos['descripcion'] =  '';
 		$datos['content'] = 'en_mi_rol/ejecutivo_atraccion_talento';
 		$this->load->view('layout', $datos);
@@ -31,7 +31,7 @@ class en_mi_rol extends CI_Controller {
 	{
 		$this->ViewBag['layout_title'] = "Ejecutivo de desarrollo organizacional";
 		$datos['home'] = false;
-		$datos['urlBanner2'] = 'img/banners/en_mi_rol.jpg';
+		$datos['urlBanner2'] = 'img/banners/banner9.jpg';
 		$datos['descripcion'] =  '';
 		$datos['content'] = 'en_mi_rol/ejecutivo_desarrollo_organizacional';
 		$this->load->view('layout', $datos);
@@ -41,7 +41,7 @@ class en_mi_rol extends CI_Controller {
 	{
 		$this->ViewBag['layout_title'] = "Gerente de capital humano";
 		$datos['home'] = false;
-		$datos['urlBanner2'] = 'img/banners/en_mi_rol.jpg';
+		$datos['urlBanner2'] = 'img/banners/banner8.jpg';
 		$datos['descripcion'] =  '';
 		$datos['content'] = 'en_mi_rol/gerente_capital_humano';
 		$this->load->view('layout', $datos);
@@ -51,7 +51,7 @@ class en_mi_rol extends CI_Controller {
 	{
 		$this->ViewBag['layout_title'] = "Consultoría y tercerización";
 		$datos['home'] = false;
-		$datos['urlBanner2'] = 'img/banners/en_mi_rol.jpg';
+		$datos['urlBanner2'] = 'img/banners/banner6.jpg';
 		$datos['descripcion'] =  '';
 		$datos['content'] = 'en_mi_rol/consultoria_tercerizacion';
 		$this->load->view('layout', $datos);
@@ -61,7 +61,7 @@ class en_mi_rol extends CI_Controller {
 	{
 		$this->ViewBag['layout_title'] = "Dirección";
 		$datos['home'] = false;
-		$datos['urlBanner2'] = 'img/banners/en_mi_rol.jpg';
+		$datos['urlBanner2'] = 'img/banners/banner11.jpg';
 		$datos['descripcion'] =  '';
 		$datos['content'] = 'en_mi_rol/direccion';
 		$this->load->view('layout', $datos);
@@ -71,7 +71,7 @@ class en_mi_rol extends CI_Controller {
 	{
 		$this->ViewBag['layout_title'] = "Propietario";
 		$datos['home'] = false;
-		$datos['urlBanner2'] = 'img/banners/en_mi_rol.jpg';
+		$datos['urlBanner2'] = 'img/banners/banner11.jpg';
 		$datos['descripcion'] =  '';
 		$datos['content'] = 'en_mi_rol/propietario';
 		$this->load->view('layout', $datos);
@@ -81,7 +81,7 @@ class en_mi_rol extends CI_Controller {
 	{
 		$this->ViewBag['layout_title'] = "Tengo un sistema instalado";
 		$datos['home'] = false;
-		$datos['urlBanner2'] = 'img/banners/en_mi_rol.jpg';
+		$datos['urlBanner2'] = 'img/banners/banner13.jpg';
 		$datos['descripcion'] =  '';
 		$datos['content'] = 'en_mi_rol/sistema_instalado';
 		$this->load->view('layout', $datos);
