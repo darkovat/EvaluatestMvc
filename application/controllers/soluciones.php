@@ -84,7 +84,7 @@ class soluciones extends CI_Controller {
 		$datos['home'] = false;
 		$datos['urlBanner2'] = 'img/va-conmigo.png';
 		$datos['descripcion'] =  '';
-		$datos['content'] = 'soluciones/api';
+		$datos['content'] = 'soluciones/entorno';
 		$this->load->view('layout', $datos);
 	}
 	

@@ -89,13 +89,13 @@
 					  <li>
 						<a>Servicios</a>
 						<div class='dropdown4 bg_style3'>
-							<a href="">Servicios de Implementación</a>
-							<a href="">Capacitación</a>
-							<a href="">Integración de Evalutest<span class="regSuperIndice">®</span> con aplicaciones</a>
-							<a href="">Soporte</a>
+							<a href="<?php echo site_url('servicios/servicios_implementacion');?>">Servicios de Implementación</a>
+							<a href="<?php echo site_url('servicios/capacitacion');?>">Capacitación</a>
+							<a href="<?php echo site_url('servicios/integracion');?>">Integración de Evalutest<span class="regSuperIndice">®</span> con aplicaciones</a>
+							<a href="<?php echo site_url('servicios/soporte');?>">Soporte</a>
 						</div>
 					  </li>
-					  <li><a>Cambiando historias</a></li>
+					  <li><a href="<?php echo site_url('cambiando');?>">Cambiando historias</a></li>
 					  <li>
 						<a>Comunidad</a>
 						<div class='dropdown5 bg_style3'>

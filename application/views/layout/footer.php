@@ -57,10 +57,10 @@
 						<div class='two columns'>
 							<ul class='no-margin'>
 								<p>Servicios</p>
-								<li><a href="">Servicios de Implementación</a></li>
-								<li><a href="">Capacitación</a></li>
-								<li><a href="">Integración de Evalutest<span class="regSuperIndice">®</span> con aplicaciones</a></li>
-								<li><a href="">Soporte</a></li>
+								<li><a href="<?php echo site_url('servicios/servicios_implementacion');?>">Servicios de Implementación</a></li>
+								<li><a href="<?php echo site_url('servicios/capacitacion');?>">Capacitación</a></li>
+								<li><a href="<?php echo site_url('servicios/integracion');?>">Integración de Evalutest<span class="regSuperIndice">®</span> con aplicaciones</a></li>
+								<li><a href="<?php echo site_url('servicios/soporte');?>">Soporte</a></li>
 							</ul>
 						</div>
 					</div>
@@ -69,9 +69,9 @@
 			<div class='container'>
 				<div class='thirteen columns'>
 					<ul id='nav-footer'>	
-						<li><a href="">Inicio</a></li>
-						<li><a href="">Acerca de Brivé</a></li>
-						<li><a href="">Colabora con nosotros</a></li>
+						<li><a href="<?php echo base_url(); ?>">Inicio</a></li>
+						<li><a href="<?php echo site_url('va_conmigo/vision_mision_valores');?>">Acerca de Brivé</a></li>
+						<li><a href="<?php echo site_url('va_conmigo/colabora');?>">Colabora con nosotros</a></li>
 						<li><a href="">Preguntas frecuentes</a></li>
 						<li><a href="">Ayuda</a></li>
 						<li><a href="">Sala de prensa</a></li>
