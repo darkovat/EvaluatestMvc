@@ -100,13 +100,13 @@
 						<a>Comunidad</a>
 						<div class='dropdown5 bg_style3'>
 							<div class='col1'>
-								<a href="">White Papers</a>
-								<a href="">Evaluatest<span class="regSuperIndice">&reg;</span> va Conmigo</a>
+								<a href="<?php echo site_url('comunidad/white_papers');?>">White Papers</a>
+								<a href="<?php echo site_url('comunidad/va_conmigo');?>">Evaluatest<span class="regSuperIndice">&reg;</span> va Conmigo</a>
 								<a href="">Eventos</a>
 							</div>
 							<div class='col2'>
-								<a href="">¿Sabías qué?</a>
-								<a href="">Redes Sociales</a>
+								<a href="<?php echo site_url('comunidad/sabias_que');?>">¿Sabías qué?</a>
+								<a href="<?php echo site_url('comunidad/redes_sociales');?>">Redes Sociales</a>
 							</div>
 						</div>
 					  </li>
