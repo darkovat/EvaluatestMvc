@@ -3,42 +3,61 @@
 		<div id='contenido2' class='sixteen columns'>
 			<div class='ten columns omega'>
 				<div id='seccion'>
-					<h2 class='titleB color_orange'>Evaluatest Va Conmigo</h2>
+					<h2 class='titleB color_orange'>Nuestro Propósito (misión)</h2>
 					<p>
-						Evaluatest® Suite es una poderosa herramienta de apoyo al toma de decisiones con relación al Capital Humano en lo Individual, Grupal, Organizacional que le permite lograr un Alto Desempeño de sus colaboradores en el negocio.
+						Brivé&reg; existe para: <br />
+						Cambiar positivamente la historia de todas las personas y empresas, acompañándoles en cada decisión relacionada con el Capital Humano.
 					</p>
 					<p>
-						Es una herramienta estratégica para la Dirección, Recursos Humanos y Gerencias ya que con la información y conocimiento que le provee pueden apoyar sus decisiones y coordinar mejor sus esfuerzos de Capacitación, Desarrollo Organizacional, Reclutamiento y Selección a fin de mejorar la productividad de la Compañía.
+						Big goal: a 25 años / 2035 (visión) 
 					</p>
 					<p>
-						Es la solución líder que le proporciona conocimiento objetivo para lograr un Alto Desempeño del Capital Humano en su negocio.
+						<dl>
+							<dt>Brivé...</dt>
+							<dd>en cada persona,</dd>
+							<dd>en cada empresa,</dd>
+							<dd>en toda Iberoamérica.</dd>
+						</dl>
 					</p>
+					<br />
+					<h2 class='titleB color_orange'>Valores</h2>
+					<p>
+						En Brivé&reg;, vivimos nuestros seis valores:
+					</p>
+					<p>
+						
+						<strong>Pasión por el reto:</strong><br />
+						Soñamos, buscamos el reto, nos apasiona la transformación, la innovación y desarrollamos propuestas creativas enfocadas en solucionar las necesidades relacionadas al trabajo de las personas.
+					</p>
+					<p>
+						<strong>Confiabilidad:</strong><br />
+						Somos congruentes, impecables, responsables y objetivos. Nuestra consciencia nos permite pensar en todos y en todo.
+					</p>
+					<p>
+						<strong>Vocación de servicio:</strong><br />
+						Mostramos nuestro espíritu de ayuda al ser empáticos con las necesidades de los demás para servir a las personas, nuestros clientes, la comunidad y el entorno cuidando el medio ambiente.
+					</p>
+					<p>
+						<strong>Vivir nuestra misión personal:</strong><br />
+						Tenemos claro nuestro propósito personal, en equilibrio llevamos a cabo las actividades que nos apasionan. Nos comprometemos con nuestro crecimiento individual y profesional, compartiendo así nuestros conocimientos, propósitos y entusiasmo con todas las personas.
+					</p>
+					<p>
+						<strong>Convicción:</strong><br />
+						Somos especialistas en nuestros campos de desarrollo y mostramos iniciativa. Sabemos nuestra dirección y tenemos auto disciplina para conducirnos hacia ella de forma contundente.
+					</p>
+					<p>
+						<strong>Líder de líderes:</strong><br />
+						Inspiramos, guiamos y facultamos a otros para que logren sus objetivos, potencien su talento y causen el mismo efecto en los demás.
+					</p>
+					<br /><br />
 				</div>
 			</div>
 			<div class='six columns alpha'>
+
 				<div class='video'>
 					<iframe width="420" height="150" src="http://www.youtube.com/embed/qNZpz5PKoTs" frameborder="0" allowfullscreen></iframe>
 				</div>
-				<p class='color_blue_dark pie'>Conoce Evaluatest, Vivelo y se parte del cambio</p>
-				<br />
-				<ul id='menu-sidebar'>
-					<li class='bg_style'><div class='more'></div>
-						<a class='color_blue' href="">Funcionamiento de Diseño y Desarrollo</a>
-					</li>
-					<li class='bg_style'><div class='more'></div>
-						<a class='color_blue' href="">Casos de éxito</a>
-					</li>
-					<li class='bg_style'><div class='more'></div>
-						<a class='color_blue' href="">Servicios adicionales</a>
-					</li>
-					<li class='bg_style'><div class='more'></div>
-						<a class='color_blue' href="">Dirigido para:</a>
-					</li>
-					<li class='bg_style'><div class='more'></div>
-						<a class='color_blue' href="">Ficha técnica del producto</a>
-					</li>
-				</ul>
-				
+
 				<div class='info'>
 					<a class='btn_info bg_orange' href="">
 						Chat en vivo
