@@ -14,13 +14,24 @@
 </head>
 <body>
 	<div class='container clearfix'>
-		<ul id='menu-top'>
-			<li><a href="<?php echo base_url();?>">Inicio</a></li>
-			<li><a href="">Contacto</a></li>
-			<li><a href="">Centro de Solución a Clientes</a></li>
-			<li><a href="">Buzón</a></li>
-			<li><a href="">Latinoamerica</a></li>
-		</ul>
+		<div class='six columns'>
+			<p id='espacio'></p>
+			<div id='networks-responsive'>
+				<a href='#' aria-hidden="true" class="icon-facebook"></a>
+				<a href='#' aria-hidden="true" class="icon-twitter"></a>
+				<a href='#' aria-hidden="true" class="icon-youtube"></a>
+			</div>
+		</div>
+		<div class='ten columns omega'>
+			<ul id='menu-top'>
+				<li><a href="<?php echo base_url();?>">Inicio</a></li>
+				<li><a href="">Contacto</a></li>
+				<li><a href="">Centro de Solución a Clientes</a></li>
+				<li><a href="">Buzón</a></li>
+				<li><a href="">Latinoamerica</a></li>
+			</ul>
+		</div>
+		
 	</div>
 	<div id="wrapper">
 		<a href="<?php echo base_url();?>blog/" target="_blank" class="micrositio"></a>
@@ -28,14 +39,16 @@
 		<section>
 		<?php echo $this->load->view($content);?> 
 		</section>
-		<?php echo $this->load->view('layout/footer');?>
 	</div>
+	<?php echo $this->load->view('layout/footer');?>
+	
 	<div id="social-tabs"></div>
 	<script src="<?php echo base_url();?>js/jquery-1.9.1.min.js"></script>
 	<script type="text/javascript" src="<?php echo base_url();?>js/funciones.js"></script>
 	<script type="text/javascript" src="<?php echo base_url();?>js/jquery.wd.social.js"></script>
 	<script type="text/javascript" src="<?php echo base_url();?>js/jquery.li-scroller.1.0.js"></script>
 	<script type="text/javascript" src="<?php echo base_url();?>js/easySlider1.7.js"></script>
+	<script src="<?php echo base_url();?>js/responsive-nav.js"></script>
 	
 	<script type="text/javascript">
 		jQuery(document).ready(function ($) {
@@ -103,6 +116,8 @@
 				imagePath: "<?php echo base_url();?>img/imagenes_social/"
 			})
 		});
+
+		var navigation = responsiveNav(".nav-collapse");
 
 	</script>
 </body>

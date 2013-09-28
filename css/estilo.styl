@@ -1,31 +1,27 @@
-@font-face{font-family:'champagne';src:url("fonts/champagne__limousines-webfont.eot");src:url("fonts/champagne__limousines-webfont.eot?#iefix") format('embedded-opentype'),url("fonts/champagne__limousines-webfont.woff") format('woff'),url("fonts/champagne__limousines-webfont.ttf") format('truetype'),url("fonts/champagne__limousines-webfont.svg#champagne__limousinesregular") format('svg');font-weight:normal;font-style:normal}
-@font-face{font-family:'amble';src:url("fonts/amble-regular-webfont.eot");src:url("fonts/amble-regular-webfont.eot?#iefix") format('embedded-opentype'),url("fonts/amble-regular-webfont.woff") format('woff'),url("fonts/amble-regular-webfont.ttf") format('truetype'),url("fonts/amble-regular-webfont.svg#ambleregular") format('svg');font-weight:normal;font-style:normal}
-@font-face{font-family:'walkway';src:url("fonts/walkway-webfont.eot");src:url("fonts/walkway-webfont.eot?#iefix") format('embedded-opentype'),url("fonts/walkway-webfont.woff") format('woff'),url("fonts/walkway-webfont.ttf") format('truetype'),url("fonts/walkway-webfont.svg#walkway_semiboldregular") format('svg');font-weight:normal;font-style:normal}
-@font-face{font-family:'CabinMedium';src:url("fonts/Cabin-Medium-webfont.eot");src:url("fonts/Cabin-Medium-webfont.eot?#iefix") format('embedded-opentype'),url("fonts/Cabin-Medium-webfont.woff") format('woff'),url("fonts/Cabin-Medium-webfont.ttf") format('truetype'),url("fonts/Cabin-Medium-webfont.svg#CabinMedium") format('svg');font-weight:normal;font-style:normal}
-
-body,html
-  color:#575756
-  font-family:'amble',Arial,sans-serif
-  margin:0
-  padding:0
+@import ('font.styl');
 
 html
   color: #575756
-  font-family: 'amble',Arial,sans-serif
+  font-family: 'amble', Arial, sans-serif
+  margin: 0
+  padding: 0
+
+html
+  color: #575756
+  font-family: 'amble', Arial, sans-serif
   margin: 0
   padding: 0
 
 header
-  margin-bottom 3em
+  margin-bottom: 3em
 
 img
+  max-width 100%
   width 100%
-  width: auto 9
   border: 0
 
-
 table
-  font-size: .8em
+  font-size: 0.8em
   border-collapse: collapse
   width: 100%
 
@@ -35,26 +31,27 @@ table
 .articles .img_articles
   border-radius: 5px
   height: 86px
-  margin-left: .5em
+  margin-left: 0.5em
   overflow: hidden
   width: 86px
 
-.articles .img_articles,.articles h4
+.articles .img_articles,
+.articles h4
   float: left
   position: relative
 
 .articles h4
   font-size: 1.3em
-  margin-left: .5em
-  margin-top: .2em
+  margin-left: 0.5em
+  margin-top: 0.2em
   line-height: 100%
   text-align: left
   width: 52%
 
 .articles p
   clear: both
-  font-size: .9em
-  padding: .2em .5em 0 .5em
+  font-size: 0.9em
+  padding: 0.2em 0.5em 0 0.5em
   text-align: justify
 
 .bg_color_blue2
@@ -96,9 +93,9 @@ table
 .btn_client a
   border-radius: 0 0 0 10px
   color: #fff
-  font-size: .8em
+  font-size: 0.8em
   height: 20px
-  padding: .4em 1.2em .4em .4em
+  padding: 0.4em 1.2em 0.4em 0.4em
   text-decoration: none
   width: 100px
 
@@ -109,11 +106,15 @@ table
 .center
   text-align: center
 
-.col1,.col2,.col3,.col4
+.col1,
+.col2,
+.col3,
+.col4
   display: block
   float: left
 
-.col1,.col2
+.col1,
+.col2
   width: 50%
 
 .col3
@@ -144,11 +145,11 @@ table
   -moz-border-radius: 0 30px 30px 30px
   border-radius: 0 30px 30px 30px
   color: #fff
-  font-size: .9em
+  font-size: 0.9em
   font-style: oblique
   margin: 0 auto
-  opacity: .7
-  padding: .2em 1.1em
+  opacity: 0.7
+  padding: 0.2em 1.1em
   width: 61.8%
 
 .double_column
@@ -161,7 +162,12 @@ table
   font-weight: bold
   text-align: center
 
-.dropdown1,.dropdown2,.dropdown3,.dropdown4,.dropdown5,.dropdown6
+.dropdown1,
+.dropdown2,
+.dropdown3,
+.dropdown4,
+.dropdown5,
+.dropdown6
   border-radius: 0 0 10px 10px
   -webkit-border-radius: 0 0 10px 10px
   -moz-border-radius: 0 0 10px 10px
@@ -177,10 +183,11 @@ table
   z-index: 8
 
 .dropdown1
-  width: 420px
+  width: 200px
 
 .dropdown2
   width: 350px
+  padding: 0 0 10px 0
 
 .dropdown3
   width: 350px
@@ -194,26 +201,70 @@ table
 .dropdown6
   width: 300px
 
-.navbar .nav li .dropdown1 a,.navbar .nav li .dropdown2 a,.navbar .nav li .dropdown3 a,.navbar .nav li .dropdown4 a,.navbar .nav li .dropdown5 a,.navbar .nav li .dropdown6 a
+.navbar .nav li .dropdown1 a,
+.navbar .nav li .dropdown2 a,
+.navbar .nav li .dropdown3 a,
+.navbar .nav li .dropdown4 a,
+.navbar .nav li .dropdown5 a,
+.navbar .nav li .dropdown6 a
   border: 0
   color: #fff
-  padding: .5em .5em .5em 12px
+  padding: 0.5em 0.5em 0.5em 12px
 
-.navbar .nav li .dropdown1 a:hover,.navbar .nav li .dropdown2 a:hover,.navbar .nav li .dropdown3 a:hover,.navbar .nav li .dropdown4 a:hover,.navbar .nav li .dropdown5 a:hover,.navbar .nav li .dropdown6 a:hover
+.navbar .nav li .dropdown1 a:hover,
+.navbar .nav li .dropdown2 a:hover,
+.navbar .nav li .dropdown3 a:hover,
+.navbar .nav li .dropdown4 a:hover,
+.navbar .nav li .dropdown5 a:hover,
+.navbar .nav li .dropdown6 a:hover
   background: #0084bf
+
+#nav-responsive
+  display none
+
+.nav-collapse ul
+  margin 0
+  padding 0
+  width 100%
+  list-style none
+
+.nav-collapse.opened 
+  max-height 9999px
+
+.nav-toggle
+  -webkit-tap-highlight-color rgba(0,0,0,0)
+  -webkit-touch-callout none
+  -webkit-user-select none
+  -moz-user-select none
+  -ms-user-select none
+  -o-user-select none
+  user-select none
+
+.subtituloMenu
+  background: #0084bf
+  border: 0
+  color: #fff
+  padding: 0.5em 0.5em 0.5em 12px
+  display: block
+
+.regSuperIndice
+  vertical-align: super
+  font-size: 0.7em
 
 .bg_style
   background-color: #fafafa
-  background: linear-gradient(to bottom,#dedade 0%,#fff 24%,#fff 81%,#dedade 100%)
+  background: linear-gradient(to bottom, #dedade 0%, #fff 24%, #fff 81%, #dedade 100%)
   background-repeat: repeat-x
 
 .bg_style2
-  background: linear-gradient(to bottom,#fff 0%,#f6f6f6 47%,#d8d8d8 100%)
+  background: linear-gradient(to bottom, #fff 0%, #f6f6f6 47%, #d8d8d8 100%)
 
 .bg_style3
   background: #0fb6eb
 
-.figure1,.figure2,.figure3
+.figure1,
+.figure2,
+.figure3
   cursor: pointer
   display: inline-block
   height: 170px
@@ -237,7 +288,7 @@ table
 .btn_info
   color: #fff
   border-radius: 5px
-  padding: .5em 1em
+  padding: 0.5em 1em
   text-decoration: none
 
 .list_video
@@ -246,7 +297,8 @@ table
   margin-top: 0
   padding: 0 15px
 
-.list_video .video-container,.list_video p
+.list_video .video-container,
+.list_video p
   display: inline-block
   vertical-align: middle
 
@@ -257,18 +309,24 @@ table
   padding-top: 0
 
 .list_video p
-  font-size: .8em
-  margin-left: .5em
+  font-size: 0.8em
+  margin-left: 0.5em
   width: 50%
 
 .list
   list-style-type: disc
 
 .list li
-  margin-bottom: .5em
+  margin-bottom: 0.3em
+
+.list-ol
+  list-style-type: decimal
+
+.list-ol li
+  margin-bottom: 1em
 
 .navbar .nav
-  font-size: .9em
+  font-size: 0.9em
   display: block
   list-style: none
   margin: 0
@@ -296,18 +354,24 @@ table
 .navbar .nav li:hover a
   color: #fff
 
-.navbar .nav li:hover .dropdown1,.navbar .nav li:hover .dropdown2,.navbar .nav li:hover .dropdown3,.navbar .nav li:hover .dropdown4,.navbar .nav li:hover .dropdown5,.navbar .nav li:hover .dropdown6
+.navbar .nav li:hover .dropdown1,
+.navbar .nav li:hover .dropdown2,
+.navbar .nav li:hover .dropdown3,
+.navbar .nav li:hover .dropdown4,
+.navbar .nav li:hover .dropdown5,
+.navbar .nav li:hover .dropdown6
   left: 1px
   top: auto
 
-.navbar .nav > .active > a,.navbar .nav > .active > a:focus
+.navbar .nav > .active > a,
+.navbar .nav > .active > a:focus
   background: #0fb6eb
   color: #fff
   text-decoration: none
 
 .nav-inner
   border: 1px solid #d4d4d4
-  font-size: .8em
+  font-size: 0.8em
   margin-top: 10px
   min-height: 35px
   padding-right: 20px
@@ -323,14 +387,15 @@ table
   margin: 0
 
 .micrositio
-  background url('../img/micrositio.png') no-repeat;
-  height 60px
-  position absolute
-  right -55px
-  top 13%
-  width 56px
+  background: url("../img/micrositio.png") no-repeat
+  height: 60px
+  position: absolute
+  right: -55px
+  top: 243px
+  width: 56px
 
-.more,.more-sup-icon
+.more,
+.more-sup-icon
   display: block
   height: 31px
   text-indent: -999em
@@ -358,10 +423,10 @@ table
   color: #878787
   display: block
   float: left
-  font-size: .9em
+  font-size: 0.9em
   height: 40px
   margin-bottom: 1em
-  margin-right: .4em
+  margin-right: 0.4em
   padding: 20px 10px
   text-decoration: none
   text-align: center
@@ -373,7 +438,7 @@ table
   box-shadow: inset 0 3px 8px rgba(0,0,0,0.5)
 
 .pie
-  font-size: .8em
+  font-size: 0.8em
 
 .products article
   border: 1px solid #9c9b9b
@@ -391,7 +456,7 @@ table
   text-align: left
 
 .products .products-description
-  font-size: .8em
+  font-size: 0.8em
 
 .products .products-img
   background: #1d1d1b
@@ -409,13 +474,13 @@ table
 .titleA
   font-family: 'CabinMedium'
   font-size: 35px
-  margin: .5em 0
+  margin: 0.5em 0
   text-align: center
 
 .titleB
   font-size: 30px
-  line-height 1
-  margin: .5em 0
+  line-height: 1
+  margin: 0.5em 0
 
 .title_banner
   left: 0
@@ -428,8 +493,8 @@ table
 .title_banner h3
   color: #fff
   background: #538efb
-  opacity: .8
-  padding: .5em 2em
+  opacity: 0.8
+  padding: 0.5em 2em
   -webkit-border-radius: 30px 30px 0 30px
   -moz-border-radius: 30px 30px 0 30px
   border-radius: 30px 30px 0 30px
@@ -451,17 +516,41 @@ table
   padding-top: 30px
   position: relative
 
-.video iframe,.video object,.video embed
+.video iframe,
+.video object,
+.video embed
   left: 0
   height: 100%
   position: absolute
   top: 0
   width: 100%
 
+.icon-facebook, .icon-twitter, .icon-youtube
+  font-family 'icomoon'
+  speak none
+  font-style normal
+  font-weight normal
+  font-variant normal
+  font-size 1.8em
+  margin-right 0.5em
+  text-transform none
+  text-decoration none
+  color #575756
+  line-height 1
+  -webkit-font-smoothing antialiased
+
+.icon-facebook:before
+  content "\e000"
+
+.icon-twitter:before 
+  content "\e001"
+
+.icon-youtube:before
+  content "\e004"
+
 #banner
-  background: url("../img/bg_banner.jpg") no-repeat
   clear: both
-  margin-top: .5em
+  margin-top: 0.5em
   height: 300px
   position: relative
   width: 100%
@@ -500,12 +589,12 @@ table
   text-align: left
 
 #banner2 .description-banner2 p
-  font-size: .8em
+  font-size: 0.8em
   margin: 10px 0 10px 0
   text-align: justify
 
 #bullets
-  bottom: .5em
+  bottom: 0.5em
   position: absolute
   text-decoration: none
   text-align: center
@@ -517,7 +606,7 @@ table
   display: inline-block
   height: 10px
   list-style: none
-  margin-left: .5em
+  margin-left: 0.5em
   text-indent: -99999em
   width: 10px
 
@@ -535,7 +624,7 @@ table
 
 #contacto h2
   margin-bottom: 2em
-  margin-left: .5em
+  margin-left: 0.5em
 
 #contacto h3
   text-align: center
@@ -560,12 +649,13 @@ table
   border-radius: 10px
   color: #fff
   display: block
-  font-size: .8em
+  font-size: 0.8em
   font-weight: bold
-  padding: .2em 0
+  padding: 0.2em 0
   text-decoration: none
 
-#contact #numbers,#contact #chat
+#contact #numbers,
+#contact #chat
   display: inline-block
   margin-top: 1em
   vertical-align: top
@@ -601,7 +691,8 @@ table
   float: right
   padding-top: 1.2em
 
-#buscar-footer .inputSearch,#buscar-footer .search
+#buscar-footer .inputSearch,
+#buscar-footer .search
   display: inline-block
   vertical-align: top
 
@@ -651,7 +742,6 @@ table
   margin-top: 1em
 
 #content_video
-  background: url("../img/bg_video_banner.png") no-repeat
   border-radius: 0 0 0 60px
   -webkit-border-radius: 0 0 0 60px
   -moz-border-radius: 0 0 0 60px
@@ -661,10 +751,20 @@ table
   right: 0
   top: 0
   width: 425px
+  z-index: 4
+  color: #fff
+  font-style: oblique
+  line-height: 1.2
+  padding: 10px 30px
+
+#content_video  p
+  font-size: 1.2em
+  margin: 10px 0 10px 0
+  text-align: justify
 
 #footer
-  background: linear-gradient(to bottom,#5a87c6 0%,#002c56 86%,#002c56 100%)
-  padding: 1em 0
+  background: linear-gradient(to bottom, #5a87c6 0%, #002c56 86%, #002c56 100%)
+  width 100%
 
 #footer p
   color: #fbb034
@@ -674,11 +774,11 @@ table
 #footer ul
   font-size: 12px
   list-style: none
-  padding-left: .5em
+  padding-left: 0.5em
   margin: 0
 
 #footer ul li
-  margin-bottom: .5em
+  margin-bottom: 0.5em
 
 #footer ul li a
   color: #fff
@@ -688,7 +788,7 @@ table
   text-decoration: underline
 
 #footer #products
-  padding: .5em 2.5em
+  padding: 0.5em 2.5em
 
 #footer #products .double_column
   margin-left: 2em
@@ -697,7 +797,7 @@ table
   text-align: center
 
 #nav-footer
-  font-size: .7em
+  font-size: 0.7em
   margin-left: 2em
   padding: 1em 0
 
@@ -707,33 +807,33 @@ table
 #nav-footer li a
   color: #002d56
   border-right: 1px solid #fbb034
-  padding: .1em .8em
+  padding: 0.1em 0.8em
   text-decoration: none
 
 #nav-footer li a:hover
   text-decoration: underline
 
 #menu-top
-  margin-bottom 0.3em
-  text-align right
+  margin-bottom: 0.3em
+  text-align: right
 
 #menu-top li
-  display inline-block
-  margin-left -5px
+  display: inline-block
+  margin-left: -5px
 
 #menu-top li a
-  color #777
-  font-size 0.6em
-  padding 0 0.7em
-  text-decoration none
-  text-align center
-  border-right 1px solid #777
+  color: #777
+  font-size: 0.6em
+  padding: 0 0.7em
+  text-decoration: none
+  text-align: center
+  border-right: 1px solid #777
 
 #menu-top li a:hover
-  text-decoration underline
+  text-decoration: underline
 
 #menu-top li:last-child a
-  border-right none
+  border-right: none
 
 #events
   margin: 3em 0
@@ -747,12 +847,13 @@ table
 #formato_tabla td
   padding: 6px
 
-#formato_tabla td,th
+#formato_tabla td,
+th
   border-left: 1px solid #ccc
   border-right: 1px solid #ccc
 
 #logo
-  padding-top: .5em
+  padding-top: 0.5em
 
 .fig
   display: inline-block
@@ -764,21 +865,65 @@ table
   font-weight: bold
   margin: 0
 
+.ulSlide, .liSlide
+  margin: 0
+  padding: 0
+  list-style: none
+
+.liSlide
+  width: 960px
+  height: 385px
+  overflow: hidden
+
+#networks-responsive
+  display none
+
 #news
   border-bottom: 1px solid #d4d4d4
   border-top: 1px solid #d4d4d4
   clear: both
-  font-size: .9em
+  font-size: 0.9em
   height: 20px
   padding: 5px 0
   position: relative
   text-align: center
 
-#news p
+span.textoNoticias
+  float: left
+  margin-right: 20px
+  margin-left: 60px
+  font-weight: bold
+
+.tickercontainer
+  width: 738px
+  height: 20px
   margin: 0
+  padding: 0
+  overflow: hidden
+  float: left
+
+.tickercontainer .mask
+  position: relative
+  width: 738px
+  overflow: hidden
+
+ul.newsticker
+  position: relative
+  left: 750px
+  list-style-type: none
+  margin: 0
+  padding: 0
+
+ul.newsticker li
+  float: left
+  margin: 0
+  padding: 0
+
+ul.newsticker span
+  margin: 0 20px 0 0
 
 #menu-sidebar
-  font-size: .8em
+  font-size: 0.8em
   margin-left: 0
   padding-left: 0
   text-align: right
@@ -794,10 +939,11 @@ table
 #menu-sidebar li a
   cursor: pointer
   display: block
-  padding: .8em 2em .8em .8em
+  padding: 0.8em 2em 0.8em 0.8em
   text-decoration: none
 
-#menu-sidebar li a:hover, #menu-sidebar li.active a
+#menu-sidebar li a:hover,
+#menu-sidebar li.active a
   color: #fff
   background-color: #00b7ec
   border-radius: 5px
@@ -805,7 +951,8 @@ table
   -moz-box-shadow: inset 0 3px 8px rgba(0,0,0,0.125)
   box-shadow: inset 0 3px 8px rgba(0,0,0,0.125)
 
-#menu-sidebar li:hover a:after,  #menu-sidebar li.active a:after
+#menu-sidebar li:hover a:after,
+#menu-sidebar li.active a:after
   background: url("../img/arrow.jpg") no-repeat
   content: ""
   height: 37px
@@ -814,7 +961,8 @@ table
   top: 0
   width: 20px
 
-#menu-sidebar li:hover .more, #menu-sidebar li.active .more
+#menu-sidebar li:hover .more,
+#menu-sidebar li.active .more
   display: none
 
 #menu-sidebar li .more
@@ -823,8 +971,8 @@ table
   display: block
   float: left
   height: 22px
-  margin-top: .5em
-  margin-left: .6em
+  margin-top: 0.5em
+  margin-left: 0.6em
   text-indent: -9999em
   width: 22px
 
@@ -836,21 +984,20 @@ table
   color: #fff
   font-size: 1em
   font-weight: bold
-  margin: .4em 0 0 0
-  padding: .5em 0 .2em 0
+  margin: 0.4em 0 0 0
+  padding: 0.5em 0 0.2em 0
   text-align: center
 
 #opciones
   margin-bottom: 2em
 
 .seccion
-  font-size: .9em
+  font-size: 0.9em
   padding-right: 3em
   text-align: justify
 
 #video_banner
   background: #c5e5ec
-  border: 5px solid #fff
   -webkit-box-shadow: 0 2px 10px rgba(0,0,0,0.9)
   -moz-box-shadow: 0 2px 10px rgba(0,0,0,0.9)
   box-shadow: 0 2px 10px rgba(0,0,0,0.9)
@@ -862,23 +1009,140 @@ table
 
 #wrapper
   background: #fff
+  box-shadow 0px 10px 10px rgba(0,0,0,0.5)
   margin: 0 auto
   max-width: 960px
   position: relative
 
-#wrapper:before,#wrapper:after
+
+#wrapper:before,
+#wrapper:after
+  content ""
+  position absolute
+  z-index -2
+
+/*
   content: ' '
   height: 1000px
   top: 10px
   position: absolute
   width: 50px
   z-index: -1
+*/
 
 #wrapper:before
-  background: url("../img/shadow_left.png") no-repeat
-  left: -12px
+  box-shadow 10px -10px 10px rgba(0, 0, 0, 0.2)
+  -webkit-transform rotate(2deg) translate(-20px, 25px) skew(-1deg)
+  -moz-transform rotate(2deg) translate(-20px, 25px) skew(-1deg)
+  -o-transform rotate(2deg) translate(-20px, 25px) skew(-1deg)
+  display inline-block
+  height 46%
+  right -1px
+  top 0
+  transform rotate(2deg) translate(-20px, 25px) skew(-1deg)
+  width 10px
 
 #wrapper:after
-  background: url("../img/shadow_right.png") no-repeat
-  right: -12px
+  height 46%
+  left -5px
+  top 0
+  width 10px
+  box-shadow -10px -10px 10px rgba(0, 0, 0, 0.2)
+  -webkit-transform rotate(2deg) translate(20px,25px) skew(4deg)
+  -moz-transform rotate(2deg) translate(20px,25px) skew(4deg)
+  -o-transform rotate(2deg) translate(20px,25px) skew(4deg)
+  transform rotate(2deg) translate(20px,25px) skew(4deg)
+
+@media only screen and (min-width: 768px) and (max-width: 959px)
+  .nav-inner
+    display none
+
+  #nav-responsive
+    display block
+
+  .nav-collapse li
+    width 100%
+    display block
+
+  .js .nav-collapse 
+    clip rect(0 0 0 0)
+    max-height 0
+    position absolute
+    display block
+    overflow hidden
+    zoom 1
+
+  #networks-responsive
+    display block
+
+  #social-tabs
+    display none
+
+  #wrapper
+    box-shadow none
+
+
+@media only screen and (max-width: 800px)
+  #footer
+    text-align center
+
+  #networks-responsive
+    display block
+
+  #social-tabs
+    display none
+
+  #wrapper
+    box-shadow none
+
+@media only screen and (max-width: 780px)
+
+  .nav-inner
+    display none
+
+  #nav-responsive
+    display block
+
+  #networks-responsive
+    text-align center
+
+  .nav-collapse li
+    width 100%
+    display block
+
+  .js .nav-collapse 
+    clip rect(0 0 0 0)
+    max-height 0
+    position absolute
+    display block
+    overflow hidden
+    zoom 1
+
+  #cabecera-logo
+    text-align center
+
+  #esr
+    text-align center
+
+    img
+      width 60%
+
+  #footer
+    display none
+
+  #logo
+    width 60%
+
+  #nav-footer
+    display none
+
+  #buscar-footer
+    float none
+    text-align center
+
+    .inputSearch
+      width 80%
+
+
+
 
