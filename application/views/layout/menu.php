@@ -27,7 +27,7 @@
 						<div class='dropdown1 bg_style3'>
 							<a href="<?php echo site_url('va_conmigo/vision_mision_valores');?>">Visión, Misión y Valores</a>
 							<a href="<?php echo site_url('va_conmigo/adn');?>">ADN Brivé</a>
-							<a href="<?php echo site_url('va_conmigo/colabora');?>">Colabora en nuestro Equipo</a>
+							<a href="<?php echo base_url();?>blog/" target='_blank'>Colabora en nuestro Equipo</a>
 							<a href="<?php echo site_url('va_conmigo/socio_de_negocios');?>">Convertirse en Socio de Negocios</a>
 							<a href="<?php echo site_url('cambiando');?>">Cambiando Historias</a>
 							<a href="<?php echo site_url('va_conmigo/responsabilidad_social');?>">Responsabilidad Social</a>
@@ -209,6 +209,8 @@
 					</ul>
 				</nav>
 			</div>
+
+
 		</div>
 	</div>
 	
