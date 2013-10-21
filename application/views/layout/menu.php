@@ -131,11 +131,12 @@
 				</div>
 			</li>
 			<li class="liSlide">
-				<h1 class='titleA color_green'>Otro título</h1>
+				<h1 class='titleA color_green'>Soluciones para diagnosticar el entorno</h1>
 				<div id='banner'>
 					<img src="<?php echo base_url();?>img/upload/banner_home2.jpg" />
 					<div id='content_video' style="background: #00A7EA;">
-						<p>Aquí podemos poner una descripción</p>
+						<p class="type1">Somos la compañía líder en diagnóstico individual y grupal. </p>
+						<p class="type2">Ayudamos a las organizaciones a identificar al talento, desarrollarlo y cuidar el entorno para lograr sus resultados de negocio.</p>
 					</div>
 				</div>
 			</li>
