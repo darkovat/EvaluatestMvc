@@ -1,5 +1,5 @@
 			<div class='container'>
-				<div id='footer' class='sixteen columns clearfix'>
+				<div id='footer' class='sixteen columns clearfix alpha omega'>
 					<div class='row'>
 						<div class='two columns'>
 							<ul>
@@ -87,7 +87,7 @@
 				</div>
 			</div>
 			<div class='container simbols'>
-				<div class='three columns'>
+				<div id='esr' class='three columns'>
 					<img src="<?php echo base_url();?>img/esr.jpg">
 				</div>
 				<div class='thirteen columns banderas'>

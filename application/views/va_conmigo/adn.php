@@ -61,11 +61,6 @@
 				</div>
 				<p class='color_blue_dark pie'>Conoce Evaluatest, Vivelo y se parte del cambio</p>
 				<br />
-				<div class='info'>
-					<a class='btn_info bg_orange' href="">
-						Chat en vivo
-					</a>
-				</div>
 			</div>
 			<br class="clear" />
 		</div>

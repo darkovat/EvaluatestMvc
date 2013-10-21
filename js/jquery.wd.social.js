@@ -252,7 +252,7 @@
                 width: wb + "px"
             });
             if (this.o.controls) {
-                $c.append('<div class="controls"><ul><li><a href="#" class="play"></a></li><li><a href="#" class="prev"></a></li><li><a href="#" class="next"></a></li><li><a href="#" class="' + this.o.classClose + ' close"></a></li></ul></div>');
+                $c.append('<div class="controls"><ul><li class="close"><a href="#" class="' + this.o.classClose + ' close"></a></li><li><a href="#" class="next"></a></li><li><a href="#" class="play"></a></li><li><a href="#" class="prev"></a></li></ul></div>');
                 $(".controls", $c).css({
                     width: wb + "px"
                 })
@@ -282,12 +282,14 @@
                 }
                 return false
             });
+            /*
             a.hover(function () {
                 if ($(".tab-active .stream").length) $(".controls", this).fadeIn();
                 else $(".controls", this).hide()
             }, function () {
                 $(".controls", this).fadeOut()
             });
+            */
             $(".controls", a).delegate("a", "click", function () {
                 var x = $(this).attr("class"),
                     stream = $(".tab-active .stream", a);

@@ -488,13 +488,18 @@ position:absolute;
 left:10px;
 height:20px;
 z-index:12;
-display:none;
+/*display:none;*/
 background:url(../img/imagenes_social/bg_white.png) repeat 0 0;
 padding:5px 0;
 }
 
 .controls li {
 display:inline;
+float: right;
+}
+.controls li.close
+{
+	float: left;
 }
 
 .controls a {

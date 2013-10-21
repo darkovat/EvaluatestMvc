@@ -56,6 +56,7 @@
 				</div>
 			</div>
 			<div class='six columns alpha'>
+				<!--
 				<div class='video'>
 					<iframe width="420" height="150" src="http://www.youtube.com/embed/qNZpz5PKoTs" frameborder="0" allowfullscreen></iframe>
 				</div>
@@ -67,6 +68,7 @@
 						Chat en vivo
 					</a>
 				</div>
+				-->
 			</div>
 			<br class="clear" />
 		</div>
